@@ -27,16 +27,16 @@ See: [`Queries.sql`](./Queries.sql)
 All visualizations created in [`analysis.R`](./analysis.R) using `ggplot2`.
 
 ### Funnel Bar Plot  
-![Funnel Plot](./output/funnel_plot.png)
+![Funnel Plot](./Outputs/funnel_plot.png)
 
 ### Failure Rate by Location  
-![Failure Heatmap](./output/failure_heatmap.png)
+![Failure Heatmap](./Outputs/failure_heatmap.png)
 
 ### Success ₹ by Location  
-![Success by Location](./output/success_by_location.png)
+![Success by Location](./Outputs/success_by_location.png)
 
 ### Success Trend Over Time  
-![Success Trend](./output/success_trend.png)
+![Success Trend](./Outputs/success_trend.png)
 
 
 ## Key Learnings

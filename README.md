@@ -24,7 +24,7 @@ See: [`Queries.sql`](./Queries.sql)
 
 ## R-Based Visualizations
 
-All visualizations created in [`analysis.R`](./analysis.R) using `ggplot2`.
+All visualizations created in [`analysis.R`](./Analysis.R) using `ggplot2`.
 
 ### Funnel Bar Plot  
 ![Funnel Plot](./Outputs/funnel_plot.png)

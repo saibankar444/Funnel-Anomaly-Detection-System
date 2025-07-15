@@ -57,18 +57,18 @@ All visualizations created in [`analysis.R`](./analysis.R) using `ggplot2`.
 
 ## Relevance
 
-> Product thinking + tech skills(Data, Science, R, Sql) 
-> Built for scale + investigation  
-> Covers analytics, reliability & insights  
-> Explains data through storytelling (like Presto tools)
+- Product thinking + tech skills(Data, Science, R, Sql)
+- Built for scale + investigation  
+- Covers analytics, reliability & insights  
+- Explains data through storytelling (like Presto tools)
 
 ---
 
 ## About Me
 
 **Sai Bankar**  
->Final Year Mechatronics Engineering Student 
->Aspiring Product Software Engineer (PSE) @ Juspay  
+- Final Year Mechatronics Engineering Student 
+- Aspiring Product Software Engineer (PSE) @ Juspay  
 [GitHub Profile](https://github.com/saibankar444)
 
 ---

@@ -1,0 +1,1474 @@
+**Schema (MySQL v5.7)**
+
+    CREATE TABLE users (
+        user_id VARCHAR(50) PRIMARY KEY,
+        signup_date DATE,
+        location VARCHAR(50)
+    );
+    
+    INSERT INTO users (user_id, signup_date, location)
+    VALUES ('user_1', '2024-04-12', 'Delhi');
+    INSERT INTO users (user_id, signup_date, location)
+    VALUES ('user_2', '2024-06-28', 'Pune');
+    INSERT INTO users (user_id, signup_date, location)
+    VALUES ('user_3', '2024-04-02', 'Delhi');
+    INSERT INTO users (user_id, signup_date, location)
+    VALUES ('user_4', '2024-01-15', 'Chennai');
+    INSERT INTO users (user_id, signup_date, location)
+    VALUES ('user_5', '2024-04-16', 'Mumbai');
+    INSERT INTO users (user_id, signup_date, location)
+    VALUES ('user_6', '2024-03-12', 'Mumbai');
+    INSERT INTO users (user_id, signup_date, location)
+    VALUES ('user_7', '2024-01-21', 'Pune');
+    INSERT INTO users (user_id, signup_date, location)
+    VALUES ('user_8', '2024-04-12', 'Bangalore');
+    INSERT INTO users (user_id, signup_date, location)
+    VALUES ('user_9', '2024-05-01', 'Pune');
+    INSERT INTO users (user_id, signup_date, location)
+    VALUES ('user_10', '2024-03-15', 'Bangalore');
+    INSERT INTO users (user_id, signup_date, location)
+    VALUES ('user_11', '2024-03-28', 'Mumbai');
+    INSERT INTO users (user_id, signup_date, location)
+    VALUES ('user_12', '2024-04-26', 'Pune');
+    INSERT INTO users (user_id, signup_date, location)
+    VALUES ('user_13', '2024-04-09', 'Chennai');
+    INSERT INTO users (user_id, signup_date, location)
+    VALUES ('user_14', '2024-04-13', 'Delhi');
+    INSERT INTO users (user_id, signup_date, location)
+    VALUES ('user_15', '2024-05-31', 'Bangalore');
+    INSERT INTO users (user_id, signup_date, location)
+    VALUES ('user_16', '2024-05-10', 'Delhi');
+    INSERT INTO users (user_id, signup_date, location)
+    VALUES ('user_17', '2024-05-29', 'Delhi');
+    INSERT INTO users (user_id, signup_date, location)
+    VALUES ('user_18', '2024-02-22', 'Pune');
+    INSERT INTO users (user_id, signup_date, location)
+    VALUES ('user_19', '2024-01-02', 'Delhi');
+    INSERT INTO users (user_id, signup_date, location)
+    VALUES ('user_20', '2024-03-28', 'Chennai');
+    INSERT INTO users (user_id, signup_date, location)
+    VALUES ('user_21', '2024-06-06', 'Delhi');
+    INSERT INTO users (user_id, signup_date, location)
+    VALUES ('user_22', '2024-02-07', 'Pune');
+    INSERT INTO users (user_id, signup_date, location)
+    VALUES ('user_23', '2024-05-09', 'Chennai');
+    INSERT INTO users (user_id, signup_date, location)
+    VALUES ('user_24', '2024-01-21', 'Mumbai');
+    INSERT INTO users (user_id, signup_date, location)
+    VALUES ('user_25', '2024-06-09', 'Delhi');
+    INSERT INTO users (user_id, signup_date, location)
+    VALUES ('user_26', '2024-02-27', 'Pune');
+    INSERT INTO users (user_id, signup_date, location)
+    VALUES ('user_27', '2024-01-22', 'Mumbai');
+    INSERT INTO users (user_id, signup_date, location)
+    VALUES ('user_28', '2024-03-29', 'Mumbai');
+    INSERT INTO users (user_id, signup_date, location)
+    VALUES ('user_29', '2024-02-18', 'Bangalore');
+    INSERT INTO users (user_id, signup_date, location)
+    VALUES ('user_30', '2024-02-28', 'Chennai');
+    INSERT INTO users (user_id, signup_date, location)
+    VALUES ('user_31', '2024-06-18', 'Delhi');
+    INSERT INTO users (user_id, signup_date, location)
+    VALUES ('user_32', '2024-01-15', 'Pune');
+    INSERT INTO users (user_id, signup_date, location)
+    VALUES ('user_33', '2024-06-23', 'Bangalore');
+    INSERT INTO users (user_id, signup_date, location)
+    VALUES ('user_34', '2024-02-20', 'Chennai');
+    INSERT INTO users (user_id, signup_date, location)
+    VALUES ('user_35', '2024-04-17', 'Bangalore');
+    INSERT INTO users (user_id, signup_date, location)
+    VALUES ('user_36', '2024-02-24', 'Chennai');
+    INSERT INTO users (user_id, signup_date, location)
+    VALUES ('user_37', '2024-03-04', 'Chennai');
+    INSERT INTO users (user_id, signup_date, location)
+    VALUES ('user_38', '2024-05-10', 'Delhi');
+    INSERT INTO users (user_id, signup_date, location)
+    VALUES ('user_39', '2024-02-20', 'Chennai');
+    INSERT INTO users (user_id, signup_date, location)
+    VALUES ('user_40', '2024-05-14', 'Bangalore');
+    INSERT INTO users (user_id, signup_date, location)
+    VALUES ('user_41', '2024-01-21', 'Chennai');
+    INSERT INTO users (user_id, signup_date, location)
+    VALUES ('user_42', '2024-03-13', 'Delhi');
+    INSERT INTO users (user_id, signup_date, location)
+    VALUES ('user_43', '2024-06-15', 'Delhi');
+    INSERT INTO users (user_id, signup_date, location)
+    VALUES ('user_44', '2024-01-18', 'Bangalore');
+    INSERT INTO users (user_id, signup_date, location)
+    VALUES ('user_45', '2024-05-11', 'Mumbai');
+    INSERT INTO users (user_id, signup_date, location)
+    VALUES ('user_46', '2024-03-29', 'Mumbai');
+    INSERT INTO users (user_id, signup_date, location)
+    VALUES ('user_47', '2024-02-29', 'Chennai');
+    INSERT INTO users (user_id, signup_date, location)
+    VALUES ('user_48', '2024-01-14', 'Pune');
+    INSERT INTO users (user_id, signup_date, location)
+    VALUES ('user_49', '2024-01-09', 'Chennai');
+    INSERT INTO users (user_id, signup_date, location)
+    VALUES ('user_50', '2024-03-30', 'Bangalore');
+    INSERT INTO users (user_id, signup_date, location)
+    VALUES ('user_51', '2024-02-22', 'Bangalore');
+    INSERT INTO users (user_id, signup_date, location)
+    VALUES ('user_52', '2024-05-09', 'Bangalore');
+    INSERT INTO users (user_id, signup_date, location)
+    VALUES ('user_53', '2024-03-24', 'Bangalore');
+    INSERT INTO users (user_id, signup_date, location)
+    VALUES ('user_54', '2024-04-01', 'Bangalore');
+    INSERT INTO users (user_id, signup_date, location)
+    VALUES ('user_55', '2024-04-20', 'Delhi');
+    INSERT INTO users (user_id, signup_date, location)
+    VALUES ('user_56', '2024-06-20', 'Mumbai');
+    INSERT INTO users (user_id, signup_date, location)
+    VALUES ('user_57', '2024-01-08', 'Bangalore');
+    INSERT INTO users (user_id, signup_date, location)
+    VALUES ('user_58', '2024-06-23', 'Pune');
+    INSERT INTO users (user_id, signup_date, location)
+    VALUES ('user_59', '2024-02-04', 'Pune');
+    INSERT INTO users (user_id, signup_date, location)
+    VALUES ('user_60', '2024-03-21', 'Pune');
+    INSERT INTO users (user_id, signup_date, location)
+    VALUES ('user_61', '2024-06-12', 'Pune');
+    INSERT INTO users (user_id, signup_date, location)
+    VALUES ('user_62', '2024-02-19', 'Delhi');
+    INSERT INTO users (user_id, signup_date, location)
+    VALUES ('user_63', '2024-04-13', 'Pune');
+    INSERT INTO users (user_id, signup_date, location)
+    VALUES ('user_64', '2024-05-11', 'Bangalore');
+    INSERT INTO users (user_id, signup_date, location)
+    VALUES ('user_65', '2024-01-02', 'Chennai');
+    INSERT INTO users (user_id, signup_date, location)
+    VALUES ('user_66', '2024-05-13', 'Pune');
+    INSERT INTO users (user_id, signup_date, location)
+    VALUES ('user_67', '2024-02-23', 'Delhi');
+    INSERT INTO users (user_id, signup_date, location)
+    VALUES ('user_68', '2024-04-15', 'Delhi');
+    INSERT INTO users (user_id, signup_date, location)
+    VALUES ('user_69', '2024-01-04', 'Pune');
+    INSERT INTO users (user_id, signup_date, location)
+    VALUES ('user_70', '2024-02-23', 'Chennai');
+    INSERT INTO users (user_id, signup_date, location)
+    VALUES ('user_71', '2024-05-25', 'Pune');
+    INSERT INTO users (user_id, signup_date, location)
+    VALUES ('user_72', '2024-02-13', 'Delhi');
+    INSERT INTO users (user_id, signup_date, location)
+    VALUES ('user_73', '2024-06-10', 'Mumbai');
+    INSERT INTO users (user_id, signup_date, location)
+    VALUES ('user_74', '2024-01-14', 'Bangalore');
+    INSERT INTO users (user_id, signup_date, location)
+    VALUES ('user_75', '2024-04-04', 'Delhi');
+    INSERT INTO users (user_id, signup_date, location)
+    VALUES ('user_76', '2024-02-17', 'Pune');
+    INSERT INTO users (user_id, signup_date, location)
+    VALUES ('user_77', '2024-01-15', 'Bangalore');
+    INSERT INTO users (user_id, signup_date, location)
+    VALUES ('user_78', '2024-02-09', 'Pune');
+    INSERT INTO users (user_id, signup_date, location)
+    VALUES ('user_79', '2024-03-22', 'Pune');
+    INSERT INTO users (user_id, signup_date, location)
+    VALUES ('user_80', '2024-04-20', 'Mumbai');
+    INSERT INTO users (user_id, signup_date, location)
+    VALUES ('user_81', '2024-02-22', 'Bangalore');
+    INSERT INTO users (user_id, signup_date, location)
+    VALUES ('user_82', '2024-01-24', 'Bangalore');
+    INSERT INTO users (user_id, signup_date, location)
+    VALUES ('user_83', '2024-06-02', 'Mumbai');
+    INSERT INTO users (user_id, signup_date, location)
+    VALUES ('user_84', '2024-05-03', 'Delhi');
+    INSERT INTO users (user_id, signup_date, location)
+    VALUES ('user_85', '2024-02-10', 'Pune');
+    INSERT INTO users (user_id, signup_date, location)
+    VALUES ('user_86', '2024-06-05', 'Chennai');
+    INSERT INTO users (user_id, signup_date, location)
+    VALUES ('user_87', '2024-01-15', 'Pune');
+    INSERT INTO users (user_id, signup_date, location)
+    VALUES ('user_88', '2024-02-14', 'Pune');
+    INSERT INTO users (user_id, signup_date, location)
+    VALUES ('user_89', '2024-03-05', 'Delhi');
+    INSERT INTO users (user_id, signup_date, location)
+    VALUES ('user_90', '2024-03-29', 'Pune');
+    INSERT INTO users (user_id, signup_date, location)
+    VALUES ('user_91', '2024-03-11', 'Mumbai');
+    INSERT INTO users (user_id, signup_date, location)
+    VALUES ('user_92', '2024-01-09', 'Mumbai');
+    INSERT INTO users (user_id, signup_date, location)
+    VALUES ('user_93', '2024-03-28', 'Bangalore');
+    INSERT INTO users (user_id, signup_date, location)
+    VALUES ('user_94', '2024-05-08', 'Chennai');
+    INSERT INTO users (user_id, signup_date, location)
+    VALUES ('user_95', '2024-05-15', 'Pune');
+    INSERT INTO users (user_id, signup_date, location)
+    VALUES ('user_96', '2024-03-03', 'Pune');
+    INSERT INTO users (user_id, signup_date, location)
+    VALUES ('user_97', '2024-05-18', 'Delhi');
+    INSERT INTO users (user_id, signup_date, location)
+    VALUES ('user_98', '2024-03-21', 'Mumbai');
+    INSERT INTO users (user_id, signup_date, location)
+    VALUES ('user_99', '2024-05-15', 'Chennai');
+    INSERT INTO users (user_id, signup_date, location)
+    VALUES ('user_100', '2024-06-11', 'Bangalore');
+    
+    
+    CREATE TABLE sessions (
+        session_id VARCHAR(50) PRIMARY KEY,
+        user_id VARCHAR(50),
+        timestamp DATETIME,
+        FOREIGN KEY (user_id) REFERENCES users(user_id)
+    );
+    
+    INSERT INTO sessions (session_id, user_id, timestamp)
+    VALUES ('user_1_s6791', 'user_1', '2024-06-06 10:00:00');
+    INSERT INTO sessions (session_id, user_id, timestamp)
+    VALUES ('user_1_s6535', 'user_1', '2024-06-23 10:00:00');
+    INSERT INTO sessions (session_id, user_id, timestamp)
+    VALUES ('user_2_s4510', 'user_2', '2024-06-11 10:00:00');
+    INSERT INTO sessions (session_id, user_id, timestamp)
+    VALUES ('user_2_s5218', 'user_2', '2024-06-17 10:00:00');
+    INSERT INTO sessions (session_id, user_id, timestamp)
+    VALUES ('user_2_s9958', 'user_2', '2024-06-06 10:00:00');
+    INSERT INTO sessions (session_id, user_id, timestamp)
+    VALUES ('user_2_s3327', 'user_2', '2024-06-05 10:00:00');
+    INSERT INTO sessions (session_id, user_id, timestamp)
+    VALUES ('user_3_s8777', 'user_3', '2024-06-06 10:00:00');
+    INSERT INTO sessions (session_id, user_id, timestamp)
+    VALUES ('user_3_s8125', 'user_3', '2024-06-11 10:00:00');
+    INSERT INTO sessions (session_id, user_id, timestamp)
+    VALUES ('user_3_s7287', 'user_3', '2024-06-01 10:00:00');
+    INSERT INTO sessions (session_id, user_id, timestamp)
+    VALUES ('user_3_s5282', 'user_3', '2024-06-06 10:00:00');
+    INSERT INTO sessions (session_id, user_id, timestamp)
+    VALUES ('user_4_s1659', 'user_4', '2024-06-28 10:00:00');
+    INSERT INTO sessions (session_id, user_id, timestamp)
+    VALUES ('user_4_s8098', 'user_4', '2024-06-04 10:00:00');
+    INSERT INTO sessions (session_id, user_id, timestamp)
+    VALUES ('user_4_s7546', 'user_4', '2024-06-26 10:00:00');
+    INSERT INTO sessions (session_id, user_id, timestamp)
+    VALUES ('user_4_s2986', 'user_4', '2024-06-19 10:00:00');
+    INSERT INTO sessions (session_id, user_id, timestamp)
+    VALUES ('user_5_s3911', 'user_5', '2024-06-07 10:00:00');
+    INSERT INTO sessions (session_id, user_id, timestamp)
+    VALUES ('user_5_s2843', 'user_5', '2024-06-09 10:00:00');
+    INSERT INTO sessions (session_id, user_id, timestamp)
+    VALUES ('user_5_s3976', 'user_5', '2024-06-08 10:00:00');
+    INSERT INTO sessions (session_id, user_id, timestamp)
+    VALUES ('user_5_s6759', 'user_5', '2024-06-07 10:00:00');
+    INSERT INTO sessions (session_id, user_id, timestamp)
+    VALUES ('user_6_s5736', 'user_6', '2024-06-11 10:00:00');
+    INSERT INTO sessions (session_id, user_id, timestamp)
+    VALUES ('user_6_s9155', 'user_6', '2024-06-25 10:00:00');
+    INSERT INTO sessions (session_id, user_id, timestamp)
+    VALUES ('user_7_s6534', 'user_7', '2024-06-30 10:00:00');
+    INSERT INTO sessions (session_id, user_id, timestamp)
+    VALUES ('user_8_s1262', 'user_8', '2024-06-28 10:00:00');
+    INSERT INTO sessions (session_id, user_id, timestamp)
+    VALUES ('user_8_s7287', 'user_8', '2024-06-26 10:00:00');
+    INSERT INTO sessions (session_id, user_id, timestamp)
+    VALUES ('user_9_s3049', 'user_9', '2024-06-01 10:00:00');
+    INSERT INTO sessions (session_id, user_id, timestamp)
+    VALUES ('user_9_s6423', 'user_9', '2024-06-30 10:00:00');
+    INSERT INTO sessions (session_id, user_id, timestamp)
+    VALUES ('user_9_s5548', 'user_9', '2024-06-05 10:00:00');
+    INSERT INTO sessions (session_id, user_id, timestamp)
+    VALUES ('user_9_s8158', 'user_9', '2024-06-09 10:00:00');
+    INSERT INTO sessions (session_id, user_id, timestamp)
+    VALUES ('user_10_s4170', 'user_10', '2024-06-19 10:00:00');
+    INSERT INTO sessions (session_id, user_id, timestamp)
+    VALUES ('user_11_s3255', 'user_11', '2024-06-03 10:00:00');
+    INSERT INTO sessions (session_id, user_id, timestamp)
+    VALUES ('user_11_s5499', 'user_11', '2024-06-24 10:00:00');
+    INSERT INTO sessions (session_id, user_id, timestamp)
+    VALUES ('user_11_s7197', 'user_11', '2024-06-24 10:00:00');
+    INSERT INTO sessions (session_id, user_id, timestamp)
+    VALUES ('user_11_s2648', 'user_11', '2024-06-08 10:00:00');
+    INSERT INTO sessions (session_id, user_id, timestamp)
+    VALUES ('user_12_s5199', 'user_12', '2024-06-20 10:00:00');
+    INSERT INTO sessions (session_id, user_id, timestamp)
+    VALUES ('user_12_s9445', 'user_12', '2024-06-03 10:00:00');
+    INSERT INTO sessions (session_id, user_id, timestamp)
+    VALUES ('user_12_s3557', 'user_12', '2024-06-25 10:00:00');
+    INSERT INTO sessions (session_id, user_id, timestamp)
+    VALUES ('user_12_s1098', 'user_12', '2024-06-25 10:00:00');
+    INSERT INTO sessions (session_id, user_id, timestamp)
+    VALUES ('user_13_s3961', 'user_13', '2024-06-14 10:00:00');
+    INSERT INTO sessions (session_id, user_id, timestamp)
+    VALUES ('user_14_s3869', 'user_14', '2024-06-03 10:00:00');
+    INSERT INTO sessions (session_id, user_id, timestamp)
+    VALUES ('user_14_s1956', 'user_14', '2024-06-09 10:00:00');
+    INSERT INTO sessions (session_id, user_id, timestamp)
+    VALUES ('user_15_s9352', 'user_15', '2024-06-04 10:00:00');
+    INSERT INTO sessions (session_id, user_id, timestamp)
+    VALUES ('user_15_s7944', 'user_15', '2024-06-14 10:00:00');
+    INSERT INTO sessions (session_id, user_id, timestamp)
+    VALUES ('user_15_s5911', 'user_15', '2024-06-20 10:00:00');
+    INSERT INTO sessions (session_id, user_id, timestamp)
+    VALUES ('user_15_s7015', 'user_15', '2024-06-08 10:00:00');
+    INSERT INTO sessions (session_id, user_id, timestamp)
+    VALUES ('user_16_s2218', 'user_16', '2024-06-17 10:00:00');
+    INSERT INTO sessions (session_id, user_id, timestamp)
+    VALUES ('user_16_s5735', 'user_16', '2024-06-01 10:00:00');
+    INSERT INTO sessions (session_id, user_id, timestamp)
+    VALUES ('user_16_s5555', 'user_16', '2024-06-27 10:00:00');
+    INSERT INTO sessions (session_id, user_id, timestamp)
+    VALUES ('user_17_s4446', 'user_17', '2024-06-22 10:00:00');
+    INSERT INTO sessions (session_id, user_id, timestamp)
+    VALUES ('user_17_s7893', 'user_17', '2024-06-30 10:00:00');
+    INSERT INTO sessions (session_id, user_id, timestamp)
+    VALUES ('user_17_s4436', 'user_17', '2024-06-19 10:00:00');
+    INSERT INTO sessions (session_id, user_id, timestamp)
+    VALUES ('user_18_s6895', 'user_18', '2024-06-27 10:00:00');
+    INSERT INTO sessions (session_id, user_id, timestamp)
+    VALUES ('user_18_s1225', 'user_18', '2024-06-21 10:00:00');
+    INSERT INTO sessions (session_id, user_id, timestamp)
+    VALUES ('user_19_s8022', 'user_19', '2024-06-01 10:00:00');
+    INSERT INTO sessions (session_id, user_id, timestamp)
+    VALUES ('user_19_s8996', 'user_19', '2024-06-16 10:00:00');
+    INSERT INTO sessions (session_id, user_id, timestamp)
+    VALUES ('user_20_s8683', 'user_20', '2024-06-03 10:00:00');
+    INSERT INTO sessions (session_id, user_id, timestamp)
+    VALUES ('user_20_s8679', 'user_20', '2024-06-17 10:00:00');
+    INSERT INTO sessions (session_id, user_id, timestamp)
+    VALUES ('user_20_s8339', 'user_20', '2024-06-28 10:00:00');
+    INSERT INTO sessions (session_id, user_id, timestamp)
+    VALUES ('user_21_s2069', 'user_21', '2024-06-21 10:00:00');
+    INSERT INTO sessions (session_id, user_id, timestamp)
+    VALUES ('user_21_s2060', 'user_21', '2024-06-24 10:00:00');
+    INSERT INTO sessions (session_id, user_id, timestamp)
+    VALUES ('user_22_s1301', 'user_22', '2024-06-21 10:00:00');
+    INSERT INTO sessions (session_id, user_id, timestamp)
+    VALUES ('user_23_s4170', 'user_23', '2024-06-28 10:00:00');
+    INSERT INTO sessions (session_id, user_id, timestamp)
+    VALUES ('user_23_s6088', 'user_23', '2024-06-20 10:00:00');
+    INSERT INTO sessions (session_id, user_id, timestamp)
+    VALUES ('user_23_s1190', 'user_23', '2024-06-29 10:00:00');
+    INSERT INTO sessions (session_id, user_id, timestamp)
+    VALUES ('user_24_s3975', 'user_24', '2024-06-23 10:00:00');
+    INSERT INTO sessions (session_id, user_id, timestamp)
+    VALUES ('user_25_s4327', 'user_25', '2024-06-03 10:00:00');
+    INSERT INTO sessions (session_id, user_id, timestamp)
+    VALUES ('user_26_s2816', 'user_26', '2024-06-10 10:00:00');
+    INSERT INTO sessions (session_id, user_id, timestamp)
+    VALUES ('user_26_s6854', 'user_26', '2024-06-22 10:00:00');
+    INSERT INTO sessions (session_id, user_id, timestamp)
+    VALUES ('user_26_s1569', 'user_26', '2024-06-03 10:00:00');
+    INSERT INTO sessions (session_id, user_id, timestamp)
+    VALUES ('user_26_s2895', 'user_26', '2024-06-14 10:00:00');
+    INSERT INTO sessions (session_id, user_id, timestamp)
+    VALUES ('user_27_s8455', 'user_27', '2024-06-15 10:00:00');
+    INSERT INTO sessions (session_id, user_id, timestamp)
+    VALUES ('user_27_s2686', 'user_27', '2024-06-02 10:00:00');
+    INSERT INTO sessions (session_id, user_id, timestamp)
+    VALUES ('user_27_s8806', 'user_27', '2024-06-27 10:00:00');
+    INSERT INTO sessions (session_id, user_id, timestamp)
+    VALUES ('user_27_s2409', 'user_27', '2024-06-26 10:00:00');
+    INSERT INTO sessions (session_id, user_id, timestamp)
+    VALUES ('user_28_s9096', 'user_28', '2024-06-09 10:00:00');
+    INSERT INTO sessions (session_id, user_id, timestamp)
+    VALUES ('user_29_s8343', 'user_29', '2024-06-07 10:00:00');
+    INSERT INTO sessions (session_id, user_id, timestamp)
+    VALUES ('user_29_s6596', 'user_29', '2024-06-10 10:00:00');
+    INSERT INTO sessions (session_id, user_id, timestamp)
+    VALUES ('user_29_s3806', 'user_29', '2024-06-26 10:00:00');
+    INSERT INTO sessions (session_id, user_id, timestamp)
+    VALUES ('user_30_s2841', 'user_30', '2024-06-25 10:00:00');
+    INSERT INTO sessions (session_id, user_id, timestamp)
+    VALUES ('user_30_s9716', 'user_30', '2024-06-28 10:00:00');
+    INSERT INTO sessions (session_id, user_id, timestamp)
+    VALUES ('user_30_s6625', 'user_30', '2024-06-07 10:00:00');
+    INSERT INTO sessions (session_id, user_id, timestamp)
+    VALUES ('user_31_s5780', 'user_31', '2024-06-20 10:00:00');
+    INSERT INTO sessions (session_id, user_id, timestamp)
+    VALUES ('user_32_s7655', 'user_32', '2024-06-14 10:00:00');
+    INSERT INTO sessions (session_id, user_id, timestamp)
+    VALUES ('user_33_s7002', 'user_33', '2024-06-23 10:00:00');
+    INSERT INTO sessions (session_id, user_id, timestamp)
+    VALUES ('user_33_s6919', 'user_33', '2024-06-23 10:00:00');
+    INSERT INTO sessions (session_id, user_id, timestamp)
+    VALUES ('user_33_s1853', 'user_33', '2024-06-19 10:00:00');
+    INSERT INTO sessions (session_id, user_id, timestamp)
+    VALUES ('user_33_s4769', 'user_33', '2024-06-30 10:00:00');
+    INSERT INTO sessions (session_id, user_id, timestamp)
+    VALUES ('user_34_s7293', 'user_34', '2024-06-26 10:00:00');
+    INSERT INTO sessions (session_id, user_id, timestamp)
+    VALUES ('user_35_s8509', 'user_35', '2024-06-17 10:00:00');
+    INSERT INTO sessions (session_id, user_id, timestamp)
+    VALUES ('user_35_s5777', 'user_35', '2024-06-06 10:00:00');
+    INSERT INTO sessions (session_id, user_id, timestamp)
+    VALUES ('user_36_s3491', 'user_36', '2024-06-05 10:00:00');
+    INSERT INTO sessions (session_id, user_id, timestamp)
+    VALUES ('user_36_s4124', 'user_36', '2024-06-28 10:00:00');
+    INSERT INTO sessions (session_id, user_id, timestamp)
+    VALUES ('user_36_s4051', 'user_36', '2024-06-12 10:00:00');
+    INSERT INTO sessions (session_id, user_id, timestamp)
+    VALUES ('user_37_s6222', 'user_37', '2024-06-04 10:00:00');
+    INSERT INTO sessions (session_id, user_id, timestamp)
+    VALUES ('user_38_s1876', 'user_38', '2024-06-20 10:00:00');
+    INSERT INTO sessions (session_id, user_id, timestamp)
+    VALUES ('user_38_s5142', 'user_38', '2024-06-03 10:00:00');
+    INSERT INTO sessions (session_id, user_id, timestamp)
+    VALUES ('user_39_s8079', 'user_39', '2024-06-20 10:00:00');
+    INSERT INTO sessions (session_id, user_id, timestamp)
+    VALUES ('user_39_s7799', 'user_39', '2024-06-13 10:00:00');
+    INSERT INTO sessions (session_id, user_id, timestamp)
+    VALUES ('user_39_s5465', 'user_39', '2024-06-28 10:00:00');
+    INSERT INTO sessions (session_id, user_id, timestamp)
+    VALUES ('user_40_s2693', 'user_40', '2024-06-19 10:00:00');
+    INSERT INTO sessions (session_id, user_id, timestamp)
+    VALUES ('user_40_s5752', 'user_40', '2024-06-24 10:00:00');
+    INSERT INTO sessions (session_id, user_id, timestamp)
+    VALUES ('user_41_s6177', 'user_41', '2024-06-23 10:00:00');
+    INSERT INTO sessions (session_id, user_id, timestamp)
+    VALUES ('user_41_s9932', 'user_41', '2024-06-26 10:00:00');
+    INSERT INTO sessions (session_id, user_id, timestamp)
+    VALUES ('user_41_s9308', 'user_41', '2024-06-30 10:00:00');
+    INSERT INTO sessions (session_id, user_id, timestamp)
+    VALUES ('user_42_s2150', 'user_42', '2024-06-09 10:00:00');
+    INSERT INTO sessions (session_id, user_id, timestamp)
+    VALUES ('user_42_s2931', 'user_42', '2024-06-21 10:00:00');
+    INSERT INTO sessions (session_id, user_id, timestamp)
+    VALUES ('user_42_s2664', 'user_42', '2024-06-26 10:00:00');
+    INSERT INTO sessions (session_id, user_id, timestamp)
+    VALUES ('user_43_s1512', 'user_43', '2024-06-15 10:00:00');
+    INSERT INTO sessions (session_id, user_id, timestamp)
+    VALUES ('user_43_s8805', 'user_43', '2024-06-22 10:00:00');
+    INSERT INTO sessions (session_id, user_id, timestamp)
+    VALUES ('user_44_s4672', 'user_44', '2024-06-08 10:00:00');
+    INSERT INTO sessions (session_id, user_id, timestamp)
+    VALUES ('user_44_s8404', 'user_44', '2024-06-21 10:00:00');
+    INSERT INTO sessions (session_id, user_id, timestamp)
+    VALUES ('user_44_s4343', 'user_44', '2024-06-29 10:00:00');
+    INSERT INTO sessions (session_id, user_id, timestamp)
+    VALUES ('user_44_s5070', 'user_44', '2024-06-05 10:00:00');
+    INSERT INTO sessions (session_id, user_id, timestamp)
+    VALUES ('user_45_s8004', 'user_45', '2024-06-23 10:00:00');
+    INSERT INTO sessions (session_id, user_id, timestamp)
+    VALUES ('user_45_s9130', 'user_45', '2024-06-12 10:00:00');
+    INSERT INTO sessions (session_id, user_id, timestamp)
+    VALUES ('user_46_s2679', 'user_46', '2024-06-19 10:00:00');
+    INSERT INTO sessions (session_id, user_id, timestamp)
+    VALUES ('user_46_s8253', 'user_46', '2024-06-25 10:00:00');
+    INSERT INTO sessions (session_id, user_id, timestamp)
+    VALUES ('user_47_s6188', 'user_47', '2024-06-15 10:00:00');
+    INSERT INTO sessions (session_id, user_id, timestamp)
+    VALUES ('user_48_s3141', 'user_48', '2024-06-14 10:00:00');
+    INSERT INTO sessions (session_id, user_id, timestamp)
+    VALUES ('user_49_s7617', 'user_49', '2024-06-16 10:00:00');
+    INSERT INTO sessions (session_id, user_id, timestamp)
+    VALUES ('user_49_s7484', 'user_49', '2024-06-07 10:00:00');
+    INSERT INTO sessions (session_id, user_id, timestamp)
+    VALUES ('user_50_s8421', 'user_50', '2024-06-30 10:00:00');
+    INSERT INTO sessions (session_id, user_id, timestamp)
+    VALUES ('user_50_s5452', 'user_50', '2024-06-23 10:00:00');
+    INSERT INTO sessions (session_id, user_id, timestamp)
+    VALUES ('user_50_s6881', 'user_50', '2024-06-10 10:00:00');
+    INSERT INTO sessions (session_id, user_id, timestamp)
+    VALUES ('user_50_s3849', 'user_50', '2024-06-20 10:00:00');
+    INSERT INTO sessions (session_id, user_id, timestamp)
+    VALUES ('user_51_s7905', 'user_51', '2024-06-19 10:00:00');
+    INSERT INTO sessions (session_id, user_id, timestamp)
+    VALUES ('user_51_s3489', 'user_51', '2024-06-01 10:00:00');
+    INSERT INTO sessions (session_id, user_id, timestamp)
+    VALUES ('user_51_s5611', 'user_51', '2024-06-16 10:00:00');
+    INSERT INTO sessions (session_id, user_id, timestamp)
+    VALUES ('user_52_s9527', 'user_52', '2024-06-23 10:00:00');
+    INSERT INTO sessions (session_id, user_id, timestamp)
+    VALUES ('user_52_s7303', 'user_52', '2024-06-27 10:00:00');
+    INSERT INTO sessions (session_id, user_id, timestamp)
+    VALUES ('user_52_s1851', 'user_52', '2024-06-24 10:00:00');
+    INSERT INTO sessions (session_id, user_id, timestamp)
+    VALUES ('user_52_s7833', 'user_52', '2024-06-03 10:00:00');
+    INSERT INTO sessions (session_id, user_id, timestamp)
+    VALUES ('user_53_s5000', 'user_53', '2024-06-29 10:00:00');
+    INSERT INTO sessions (session_id, user_id, timestamp)
+    VALUES ('user_53_s3738', 'user_53', '2024-06-11 10:00:00');
+    INSERT INTO sessions (session_id, user_id, timestamp)
+    VALUES ('user_53_s6732', 'user_53', '2024-06-12 10:00:00');
+    INSERT INTO sessions (session_id, user_id, timestamp)
+    VALUES ('user_53_s9002', 'user_53', '2024-06-01 10:00:00');
+    INSERT INTO sessions (session_id, user_id, timestamp)
+    VALUES ('user_54_s4913', 'user_54', '2024-06-11 10:00:00');
+    INSERT INTO sessions (session_id, user_id, timestamp)
+    VALUES ('user_55_s5380', 'user_55', '2024-06-13 10:00:00');
+    INSERT INTO sessions (session_id, user_id, timestamp)
+    VALUES ('user_55_s5107', 'user_55', '2024-06-14 10:00:00');
+    INSERT INTO sessions (session_id, user_id, timestamp)
+    VALUES ('user_55_s9945', 'user_55', '2024-06-03 10:00:00');
+    INSERT INTO sessions (session_id, user_id, timestamp)
+    VALUES ('user_55_s9967', 'user_55', '2024-06-29 10:00:00');
+    INSERT INTO sessions (session_id, user_id, timestamp)
+    VALUES ('user_56_s1417', 'user_56', '2024-06-19 10:00:00');
+    INSERT INTO sessions (session_id, user_id, timestamp)
+    VALUES ('user_56_s9808', 'user_56', '2024-06-07 10:00:00');
+    INSERT INTO sessions (session_id, user_id, timestamp)
+    VALUES ('user_57_s1825', 'user_57', '2024-06-21 10:00:00');
+    INSERT INTO sessions (session_id, user_id, timestamp)
+    VALUES ('user_57_s6745', 'user_57', '2024-06-13 10:00:00');
+    INSERT INTO sessions (session_id, user_id, timestamp)
+    VALUES ('user_57_s1412', 'user_57', '2024-06-24 10:00:00');
+    INSERT INTO sessions (session_id, user_id, timestamp)
+    VALUES ('user_57_s8587', 'user_57', '2024-06-25 10:00:00');
+    INSERT INTO sessions (session_id, user_id, timestamp)
+    VALUES ('user_58_s8164', 'user_58', '2024-06-25 10:00:00');
+    INSERT INTO sessions (session_id, user_id, timestamp)
+    VALUES ('user_59_s6988', 'user_59', '2024-06-09 10:00:00');
+    INSERT INTO sessions (session_id, user_id, timestamp)
+    VALUES ('user_59_s3967', 'user_59', '2024-06-03 10:00:00');
+    INSERT INTO sessions (session_id, user_id, timestamp)
+    VALUES ('user_59_s2122', 'user_59', '2024-06-16 10:00:00');
+    INSERT INTO sessions (session_id, user_id, timestamp)
+    VALUES ('user_59_s2571', 'user_59', '2024-06-18 10:00:00');
+    INSERT INTO sessions (session_id, user_id, timestamp)
+    VALUES ('user_60_s3143', 'user_60', '2024-06-24 10:00:00');
+    INSERT INTO sessions (session_id, user_id, timestamp)
+    VALUES ('user_61_s8357', 'user_61', '2024-06-05 10:00:00');
+    INSERT INTO sessions (session_id, user_id, timestamp)
+    VALUES ('user_61_s4440', 'user_61', '2024-06-23 10:00:00');
+    INSERT INTO sessions (session_id, user_id, timestamp)
+    VALUES ('user_61_s6644', 'user_61', '2024-06-23 10:00:00');
+    INSERT INTO sessions (session_id, user_id, timestamp)
+    VALUES ('user_62_s3914', 'user_62', '2024-06-09 10:00:00');
+    INSERT INTO sessions (session_id, user_id, timestamp)
+    VALUES ('user_63_s9787', 'user_63', '2024-06-16 10:00:00');
+    INSERT INTO sessions (session_id, user_id, timestamp)
+    VALUES ('user_63_s1728', 'user_63', '2024-06-22 10:00:00');
+    INSERT INTO sessions (session_id, user_id, timestamp)
+    VALUES ('user_64_s1698', 'user_64', '2024-06-19 10:00:00');
+    INSERT INTO sessions (session_id, user_id, timestamp)
+    VALUES ('user_65_s1395', 'user_65', '2024-06-29 10:00:00');
+    INSERT INTO sessions (session_id, user_id, timestamp)
+    VALUES ('user_66_s9082', 'user_66', '2024-06-12 10:00:00');
+    INSERT INTO sessions (session_id, user_id, timestamp)
+    VALUES ('user_67_s3502', 'user_67', '2024-06-28 10:00:00');
+    INSERT INTO sessions (session_id, user_id, timestamp)
+    VALUES ('user_68_s3782', 'user_68', '2024-06-20 10:00:00');
+    INSERT INTO sessions (session_id, user_id, timestamp)
+    VALUES ('user_68_s5946', 'user_68', '2024-06-26 10:00:00');
+    INSERT INTO sessions (session_id, user_id, timestamp)
+    VALUES ('user_69_s9335', 'user_69', '2024-06-21 10:00:00');
+    INSERT INTO sessions (session_id, user_id, timestamp)
+    VALUES ('user_69_s8266', 'user_69', '2024-06-12 10:00:00');
+    INSERT INTO sessions (session_id, user_id, timestamp)
+    VALUES ('user_69_s8192', 'user_69', '2024-06-20 10:00:00');
+    INSERT INTO sessions (session_id, user_id, timestamp)
+    VALUES ('user_70_s6588', 'user_70', '2024-06-04 10:00:00');
+    INSERT INTO sessions (session_id, user_id, timestamp)
+    VALUES ('user_70_s4636', 'user_70', '2024-06-23 10:00:00');
+    INSERT INTO sessions (session_id, user_id, timestamp)
+    VALUES ('user_70_s2167', 'user_70', '2024-06-25 10:00:00');
+    INSERT INTO sessions (session_id, user_id, timestamp)
+    VALUES ('user_71_s3156', 'user_71', '2024-06-21 10:00:00');
+    INSERT INTO sessions (session_id, user_id, timestamp)
+    VALUES ('user_71_s6161', 'user_71', '2024-06-26 10:00:00');
+    INSERT INTO sessions (session_id, user_id, timestamp)
+    VALUES ('user_71_s7541', 'user_71', '2024-06-26 10:00:00');
+    INSERT INTO sessions (session_id, user_id, timestamp)
+    VALUES ('user_72_s8330', 'user_72', '2024-06-23 10:00:00');
+    INSERT INTO sessions (session_id, user_id, timestamp)
+    VALUES ('user_73_s5330', 'user_73', '2024-06-11 10:00:00');
+    INSERT INTO sessions (session_id, user_id, timestamp)
+    VALUES ('user_74_s5846', 'user_74', '2024-06-12 10:00:00');
+    INSERT INTO sessions (session_id, user_id, timestamp)
+    VALUES ('user_74_s8241', 'user_74', '2024-06-26 10:00:00');
+    INSERT INTO sessions (session_id, user_id, timestamp)
+    VALUES ('user_75_s8056', 'user_75', '2024-06-29 10:00:00');
+    INSERT INTO sessions (session_id, user_id, timestamp)
+    VALUES ('user_75_s2542', 'user_75', '2024-06-14 10:00:00');
+    INSERT INTO sessions (session_id, user_id, timestamp)
+    VALUES ('user_75_s2191', 'user_75', '2024-06-10 10:00:00');
+    INSERT INTO sessions (session_id, user_id, timestamp)
+    VALUES ('user_75_s7938', 'user_75', '2024-06-26 10:00:00');
+    INSERT INTO sessions (session_id, user_id, timestamp)
+    VALUES ('user_76_s2540', 'user_76', '2024-06-29 10:00:00');
+    INSERT INTO sessions (session_id, user_id, timestamp)
+    VALUES ('user_76_s6541', 'user_76', '2024-06-19 10:00:00');
+    INSERT INTO sessions (session_id, user_id, timestamp)
+    VALUES ('user_77_s2365', 'user_77', '2024-06-20 10:00:00');
+    INSERT INTO sessions (session_id, user_id, timestamp)
+    VALUES ('user_77_s9702', 'user_77', '2024-06-07 10:00:00');
+    INSERT INTO sessions (session_id, user_id, timestamp)
+    VALUES ('user_77_s5312', 'user_77', '2024-06-13 10:00:00');
+    INSERT INTO sessions (session_id, user_id, timestamp)
+    VALUES ('user_77_s4141', 'user_77', '2024-06-28 10:00:00');
+    INSERT INTO sessions (session_id, user_id, timestamp)
+    VALUES ('user_78_s2810', 'user_78', '2024-06-29 10:00:00');
+    INSERT INTO sessions (session_id, user_id, timestamp)
+    VALUES ('user_78_s3923', 'user_78', '2024-06-22 10:00:00');
+    INSERT INTO sessions (session_id, user_id, timestamp)
+    VALUES ('user_78_s5186', 'user_78', '2024-06-10 10:00:00');
+    INSERT INTO sessions (session_id, user_id, timestamp)
+    VALUES ('user_79_s5268', 'user_79', '2024-06-13 10:00:00');
+    INSERT INTO sessions (session_id, user_id, timestamp)
+    VALUES ('user_79_s5849', 'user_79', '2024-06-28 10:00:00');
+    INSERT INTO sessions (session_id, user_id, timestamp)
+    VALUES ('user_80_s7619', 'user_80', '2024-06-08 10:00:00');
+    INSERT INTO sessions (session_id, user_id, timestamp)
+    VALUES ('user_80_s4072', 'user_80', '2024-06-03 10:00:00');
+    INSERT INTO sessions (session_id, user_id, timestamp)
+    VALUES ('user_81_s1504', 'user_81', '2024-06-28 10:00:00');
+    INSERT INTO sessions (session_id, user_id, timestamp)
+    VALUES ('user_82_s8576', 'user_82', '2024-06-24 10:00:00');
+    INSERT INTO sessions (session_id, user_id, timestamp)
+    VALUES ('user_83_s6029', 'user_83', '2024-06-21 10:00:00');
+    INSERT INTO sessions (session_id, user_id, timestamp)
+    VALUES ('user_84_s3105', 'user_84', '2024-06-12 10:00:00');
+    INSERT INTO sessions (session_id, user_id, timestamp)
+    VALUES ('user_84_s7316', 'user_84', '2024-06-29 10:00:00');
+    INSERT INTO sessions (session_id, user_id, timestamp)
+    VALUES ('user_85_s5175', 'user_85', '2024-06-22 10:00:00');
+    INSERT INTO sessions (session_id, user_id, timestamp)
+    VALUES ('user_85_s6348', 'user_85', '2024-06-04 10:00:00');
+    INSERT INTO sessions (session_id, user_id, timestamp)
+    VALUES ('user_85_s7190', 'user_85', '2024-06-09 10:00:00');
+    INSERT INTO sessions (session_id, user_id, timestamp)
+    VALUES ('user_86_s6645', 'user_86', '2024-06-15 10:00:00');
+    INSERT INTO sessions (session_id, user_id, timestamp)
+    VALUES ('user_87_s4584', 'user_87', '2024-06-21 10:00:00');
+    INSERT INTO sessions (session_id, user_id, timestamp)
+    VALUES ('user_87_s9053', 'user_87', '2024-06-03 10:00:00');
+    INSERT INTO sessions (session_id, user_id, timestamp)
+    VALUES ('user_87_s3703', 'user_87', '2024-06-23 10:00:00');
+    INSERT INTO sessions (session_id, user_id, timestamp)
+    VALUES ('user_88_s8114', 'user_88', '2024-06-12 10:00:00');
+    INSERT INTO sessions (session_id, user_id, timestamp)
+    VALUES ('user_89_s6063', 'user_89', '2024-06-06 10:00:00');
+    INSERT INTO sessions (session_id, user_id, timestamp)
+    VALUES ('user_89_s8575', 'user_89', '2024-06-28 10:00:00');
+    INSERT INTO sessions (session_id, user_id, timestamp)
+    VALUES ('user_90_s7819', 'user_90', '2024-06-26 10:00:00');
+    INSERT INTO sessions (session_id, user_id, timestamp)
+    VALUES ('user_91_s3745', 'user_91', '2024-06-28 10:00:00');
+    INSERT INTO sessions (session_id, user_id, timestamp)
+    VALUES ('user_91_s1539', 'user_91', '2024-06-28 10:00:00');
+    INSERT INTO sessions (session_id, user_id, timestamp)
+    VALUES ('user_91_s5964', 'user_91', '2024-06-09 10:00:00');
+    INSERT INTO sessions (session_id, user_id, timestamp)
+    VALUES ('user_91_s5835', 'user_91', '2024-06-27 10:00:00');
+    INSERT INTO sessions (session_id, user_id, timestamp)
+    VALUES ('user_92_s8102', 'user_92', '2024-06-17 10:00:00');
+    INSERT INTO sessions (session_id, user_id, timestamp)
+    VALUES ('user_92_s6320', 'user_92', '2024-06-01 10:00:00');
+    INSERT INTO sessions (session_id, user_id, timestamp)
+    VALUES ('user_93_s8891', 'user_93', '2024-06-13 10:00:00');
+    INSERT INTO sessions (session_id, user_id, timestamp)
+    VALUES ('user_94_s1924', 'user_94', '2024-06-13 10:00:00');
+    INSERT INTO sessions (session_id, user_id, timestamp)
+    VALUES ('user_94_s2581', 'user_94', '2024-06-03 10:00:00');
+    INSERT INTO sessions (session_id, user_id, timestamp)
+    VALUES ('user_94_s4324', 'user_94', '2024-06-06 10:00:00');
+    INSERT INTO sessions (session_id, user_id, timestamp)
+    VALUES ('user_94_s6713', 'user_94', '2024-06-19 10:00:00');
+    INSERT INTO sessions (session_id, user_id, timestamp)
+    VALUES ('user_95_s5804', 'user_95', '2024-06-15 10:00:00');
+    INSERT INTO sessions (session_id, user_id, timestamp)
+    VALUES ('user_95_s1009', 'user_95', '2024-06-24 10:00:00');
+    INSERT INTO sessions (session_id, user_id, timestamp)
+    VALUES ('user_95_s9989', 'user_95', '2024-06-18 10:00:00');
+    INSERT INTO sessions (session_id, user_id, timestamp)
+    VALUES ('user_95_s8418', 'user_95', '2024-06-13 10:00:00');
+    INSERT INTO sessions (session_id, user_id, timestamp)
+    VALUES ('user_96_s2015', 'user_96', '2024-06-01 10:00:00');
+    INSERT INTO sessions (session_id, user_id, timestamp)
+    VALUES ('user_97_s3193', 'user_97', '2024-06-15 10:00:00');
+    INSERT INTO sessions (session_id, user_id, timestamp)
+    VALUES ('user_97_s8449', 'user_97', '2024-06-25 10:00:00');
+    INSERT INTO sessions (session_id, user_id, timestamp)
+    VALUES ('user_98_s7970', 'user_98', '2024-06-27 10:00:00');
+    INSERT INTO sessions (session_id, user_id, timestamp)
+    VALUES ('user_98_s5784', 'user_98', '2024-06-13 10:00:00');
+    INSERT INTO sessions (session_id, user_id, timestamp)
+    VALUES ('user_99_s2633', 'user_99', '2024-06-09 10:00:00');
+    INSERT INTO sessions (session_id, user_id, timestamp)
+    VALUES ('user_100_s9702', 'user_100', '2024-06-01 10:00:00');
+    INSERT INTO sessions (session_id, user_id, timestamp)
+    VALUES ('user_100_s1404', 'user_100', '2024-06-16 10:00:00');
+    INSERT INTO sessions (session_id, user_id, timestamp)
+    VALUES ('user_100_s3000', 'user_100', '2024-06-05 10:00:00');
+    
+    
+    
+    
+    CREATE TABLE transactions (
+        id INT PRIMARY KEY,
+        session_id VARCHAR(50),
+        amount DECIMAL(10,2),
+        status VARCHAR(20),
+        timestamp DATE
+    );
+    
+    
+    
+    INSERT INTO transactions (id, session_id, amount, status, timestamp)
+    VALUES (1, 'user_1_s6791', 4983.52, 'success', '2024-06-06');
+    INSERT INTO transactions (id, session_id, amount, status, timestamp)
+    VALUES (2, 'user_1_s6791', 3657.99, 'failed', '2024-06-06');
+    INSERT INTO transactions (id, session_id, amount, status, timestamp)
+    VALUES (3, 'user_1_s6535', 2307.67, 'success', '2024-06-23');
+    INSERT INTO transactions (id, session_id, amount, status, timestamp)
+    VALUES (4, 'user_2_s4510', 1115.42, 'failed', '2024-06-11');
+    INSERT INTO transactions (id, session_id, amount, status, timestamp)
+    VALUES (5, 'user_2_s5218', 1855.0, 'success', '2024-06-17');
+    INSERT INTO transactions (id, session_id, amount, status, timestamp)
+    VALUES (6, 'user_2_s9958', 2433.43, 'failed', '2024-06-06');
+    INSERT INTO transactions (id, session_id, amount, status, timestamp)
+    VALUES (7, 'user_2_s3327', 2804.34, 'success', '2024-06-05');
+    INSERT INTO transactions (id, session_id, amount, status, timestamp)
+    VALUES (8, 'user_2_s3327', 3979.91, 'success', '2024-06-05');
+    INSERT INTO transactions (id, session_id, amount, status, timestamp)
+    VALUES (9, 'user_3_s8777', 3944.87, 'failed', '2024-06-06');
+    INSERT INTO transactions (id, session_id, amount, status, timestamp)
+    VALUES (10, 'user_3_s8125', 768.22, 'success', '2024-06-11');
+    INSERT INTO transactions (id, session_id, amount, status, timestamp)
+    VALUES (11, 'user_3_s7287', 3219.56, 'success', '2024-06-01');
+    INSERT INTO transactions (id, session_id, amount, status, timestamp)
+    VALUES (12, 'user_3_s5282', 1806.45, 'success', '2024-06-06');
+    INSERT INTO transactions (id, session_id, amount, status, timestamp)
+    VALUES (13, 'user_3_s5282', 4561.31, 'success', '2024-06-06');
+    INSERT INTO transactions (id, session_id, amount, status, timestamp)
+    VALUES (14, 'user_4_s1659', 4752.65, 'success', '2024-06-28');
+    INSERT INTO transactions (id, session_id, amount, status, timestamp)
+    VALUES (15, 'user_4_s1659', 4226.25, 'failed', '2024-06-28');
+    INSERT INTO transactions (id, session_id, amount, status, timestamp)
+    VALUES (16, 'user_4_s8098', 4902.16, 'success', '2024-06-04');
+    INSERT INTO transactions (id, session_id, amount, status, timestamp)
+    VALUES (17, 'user_4_s7546', 2940.28, 'success', '2024-06-26');
+    INSERT INTO transactions (id, session_id, amount, status, timestamp)
+    VALUES (18, 'user_4_s2986', 727.42, 'success', '2024-06-19');
+    INSERT INTO transactions (id, session_id, amount, status, timestamp)
+    VALUES (19, 'user_5_s3911', 982.33, 'failed', '2024-06-07');
+    INSERT INTO transactions (id, session_id, amount, status, timestamp)
+    VALUES (20, 'user_5_s2843', 2422.41, 'failed', '2024-06-09');
+    INSERT INTO transactions (id, session_id, amount, status, timestamp)
+    VALUES (21, 'user_5_s2843', 3049.48, 'success', '2024-06-09');
+    INSERT INTO transactions (id, session_id, amount, status, timestamp)
+    VALUES (22, 'user_5_s3976', 1465.09, 'success', '2024-06-08');
+    INSERT INTO transactions (id, session_id, amount, status, timestamp)
+    VALUES (23, 'user_5_s6759', 2718.68, 'success', '2024-06-07');
+    INSERT INTO transactions (id, session_id, amount, status, timestamp)
+    VALUES (24, 'user_6_s5736', 2566.74, 'failed', '2024-06-11');
+    INSERT INTO transactions (id, session_id, amount, status, timestamp)
+    VALUES (25, 'user_6_s9155', 2457.61, 'failed', '2024-06-25');
+    INSERT INTO transactions (id, session_id, amount, status, timestamp)
+    VALUES (26, 'user_7_s6534', 4612.27, 'success', '2024-06-30');
+    INSERT INTO transactions (id, session_id, amount, status, timestamp)
+    VALUES (27, 'user_7_s6534', 4354.68, 'success', '2024-06-30');
+    INSERT INTO transactions (id, session_id, amount, status, timestamp)
+    VALUES (28, 'user_8_s1262', 1125.81, 'success', '2024-06-28');
+    INSERT INTO transactions (id, session_id, amount, status, timestamp)
+    VALUES (29, 'user_8_s7287', 3823.78, 'success', '2024-06-26');
+    INSERT INTO transactions (id, session_id, amount, status, timestamp)
+    VALUES (30, 'user_9_s3049', 279.75, 'success', '2024-06-01');
+    INSERT INTO transactions (id, session_id, amount, status, timestamp)
+    VALUES (31, 'user_9_s3049', 3467.11, 'failed', '2024-06-01');
+    INSERT INTO transactions (id, session_id, amount, status, timestamp)
+    VALUES (32, 'user_9_s6423', 625.14, 'success', '2024-06-30');
+    INSERT INTO transactions (id, session_id, amount, status, timestamp)
+    VALUES (33, 'user_9_s5548', 613.86, 'failed', '2024-06-05');
+    INSERT INTO transactions (id, session_id, amount, status, timestamp)
+    VALUES (34, 'user_9_s8158', 1678.19, 'success', '2024-06-09');
+    INSERT INTO transactions (id, session_id, amount, status, timestamp)
+    VALUES (35, 'user_10_s4170', 1242.76, 'success', '2024-06-19');
+    INSERT INTO transactions (id, session_id, amount, status, timestamp)
+    VALUES (36, 'user_11_s3255', 3966.94, 'success', '2024-06-03');
+    INSERT INTO transactions (id, session_id, amount, status, timestamp)
+    VALUES (37, 'user_11_s5499', 3710.43, 'success', '2024-06-24');
+    INSERT INTO transactions (id, session_id, amount, status, timestamp)
+    VALUES (38, 'user_11_s7197', 725.14, 'success', '2024-06-24');
+    INSERT INTO transactions (id, session_id, amount, status, timestamp)
+    VALUES (39, 'user_11_s2648', 3077.02, 'success', '2024-06-08');
+    INSERT INTO transactions (id, session_id, amount, status, timestamp)
+    VALUES (40, 'user_11_s2648', 4933.92, 'failed', '2024-06-08');
+    INSERT INTO transactions (id, session_id, amount, status, timestamp)
+    VALUES (41, 'user_12_s5199', 1204.13, 'success', '2024-06-20');
+    INSERT INTO transactions (id, session_id, amount, status, timestamp)
+    VALUES (42, 'user_12_s9445', 1014.18, 'success', '2024-06-03');
+    INSERT INTO transactions (id, session_id, amount, status, timestamp)
+    VALUES (43, 'user_12_s3557', 4227.34, 'success', '2024-06-25');
+    INSERT INTO transactions (id, session_id, amount, status, timestamp)
+    VALUES (44, 'user_12_s1098', 4913.66, 'success', '2024-06-25');
+    INSERT INTO transactions (id, session_id, amount, status, timestamp)
+    VALUES (45, 'user_13_s3961', 4595.24, 'success', '2024-06-14');
+    INSERT INTO transactions (id, session_id, amount, status, timestamp)
+    VALUES (46, 'user_14_s3869', 937.35, 'failed', '2024-06-03');
+    INSERT INTO transactions (id, session_id, amount, status, timestamp)
+    VALUES (47, 'user_14_s1956', 2721.68, 'success', '2024-06-09');
+    INSERT INTO transactions (id, session_id, amount, status, timestamp)
+    VALUES (48, 'user_14_s1956', 3870.52, 'success', '2024-06-09');
+    INSERT INTO transactions (id, session_id, amount, status, timestamp)
+    VALUES (49, 'user_15_s9352', 1077.58, 'failed', '2024-06-04');
+    INSERT INTO transactions (id, session_id, amount, status, timestamp)
+    VALUES (50, 'user_15_s9352', 662.7, 'failed', '2024-06-04');
+    INSERT INTO transactions (id, session_id, amount, status, timestamp)
+    VALUES (51, 'user_15_s7944', 856.38, 'success', '2024-06-14');
+    INSERT INTO transactions (id, session_id, amount, status, timestamp)
+    VALUES (52, 'user_15_s5911', 1909.23, 'success', '2024-06-20');
+    INSERT INTO transactions (id, session_id, amount, status, timestamp)
+    VALUES (53, 'user_15_s7015', 4950.81, 'success', '2024-06-08');
+    INSERT INTO transactions (id, session_id, amount, status, timestamp)
+    VALUES (54, 'user_16_s2218', 780.24, 'success', '2024-06-17');
+    INSERT INTO transactions (id, session_id, amount, status, timestamp)
+    VALUES (55, 'user_16_s5735', 2410.72, 'success', '2024-06-01');
+    INSERT INTO transactions (id, session_id, amount, status, timestamp)
+    VALUES (56, 'user_16_s5555', 4268.56, 'failed', '2024-06-27');
+    INSERT INTO transactions (id, session_id, amount, status, timestamp)
+    VALUES (57, 'user_17_s4446', 3681.25, 'abandoned', '2024-06-22');
+    INSERT INTO transactions (id, session_id, amount, status, timestamp)
+    VALUES (58, 'user_17_s7893', 4639.6, 'failed', '2024-06-30');
+    INSERT INTO transactions (id, session_id, amount, status, timestamp)
+    VALUES (59, 'user_17_s4436', 3996.81, 'success', '2024-06-19');
+    INSERT INTO transactions (id, session_id, amount, status, timestamp)
+    VALUES (60, 'user_18_s6895', 1013.38, 'success', '2024-06-27');
+    INSERT INTO transactions (id, session_id, amount, status, timestamp)
+    VALUES (61, 'user_18_s6895', 2663.02, 'success', '2024-06-27');
+    INSERT INTO transactions (id, session_id, amount, status, timestamp)
+    VALUES (62, 'user_18_s1225', 3446.61, 'success', '2024-06-21');
+    INSERT INTO transactions (id, session_id, amount, status, timestamp)
+    VALUES (63, 'user_19_s8022', 2367.13, 'success', '2024-06-01');
+    INSERT INTO transactions (id, session_id, amount, status, timestamp)
+    VALUES (64, 'user_19_s8996', 2929.68, 'success', '2024-06-16');
+    INSERT INTO transactions (id, session_id, amount, status, timestamp)
+    VALUES (65, 'user_20_s8683', 2763.41, 'abandoned', '2024-06-03');
+    INSERT INTO transactions (id, session_id, amount, status, timestamp)
+    VALUES (66, 'user_20_s8679', 2214.49, 'success', '2024-06-17');
+    INSERT INTO transactions (id, session_id, amount, status, timestamp)
+    VALUES (67, 'user_20_s8339', 782.43, 'failed', '2024-06-28');
+    INSERT INTO transactions (id, session_id, amount, status, timestamp)
+    VALUES (68, 'user_21_s2069', 3733.16, 'success', '2024-06-21');
+    INSERT INTO transactions (id, session_id, amount, status, timestamp)
+    VALUES (69, 'user_21_s2060', 1627.44, 'success', '2024-06-24');
+    INSERT INTO transactions (id, session_id, amount, status, timestamp)
+    VALUES (70, 'user_22_s1301', 1102.27, 'failed', '2024-06-21');
+    INSERT INTO transactions (id, session_id, amount, status, timestamp)
+    VALUES (71, 'user_23_s4170', 1776.2, 'failed', '2024-06-28');
+    INSERT INTO transactions (id, session_id, amount, status, timestamp)
+    VALUES (72, 'user_23_s4170', 1956.23, 'success', '2024-06-28');
+    INSERT INTO transactions (id, session_id, amount, status, timestamp)
+    VALUES (73, 'user_23_s6088', 4006.75, 'success', '2024-06-20');
+    INSERT INTO transactions (id, session_id, amount, status, timestamp)
+    VALUES (74, 'user_23_s1190', 3882.22, 'success', '2024-06-29');
+    INSERT INTO transactions (id, session_id, amount, status, timestamp)
+    VALUES (75, 'user_24_s3975', 2759.35, 'success', '2024-06-23');
+    INSERT INTO transactions (id, session_id, amount, status, timestamp)
+    VALUES (76, 'user_25_s4327', 4799.47, 'success', '2024-06-03');
+    INSERT INTO transactions (id, session_id, amount, status, timestamp)
+    VALUES (77, 'user_25_s4327', 2064.17, 'success', '2024-06-03');
+    INSERT INTO transactions (id, session_id, amount, status, timestamp)
+    VALUES (78, 'user_26_s2816', 4568.08, 'success', '2024-06-10');
+    INSERT INTO transactions (id, session_id, amount, status, timestamp)
+    VALUES (79, 'user_26_s6854', 188.74, 'failed', '2024-06-22');
+    INSERT INTO transactions (id, session_id, amount, status, timestamp)
+    VALUES (80, 'user_26_s1569', 4601.88, 'failed', '2024-06-03');
+    INSERT INTO transactions (id, session_id, amount, status, timestamp)
+    VALUES (81, 'user_26_s2895', 847.44, 'success', '2024-06-14');
+    INSERT INTO transactions (id, session_id, amount, status, timestamp)
+    VALUES (82, 'user_26_s2895', 437.72, 'success', '2024-06-14');
+    INSERT INTO transactions (id, session_id, amount, status, timestamp)
+    VALUES (83, 'user_27_s8455', 4635.29, 'success', '2024-06-15');
+    INSERT INTO transactions (id, session_id, amount, status, timestamp)
+    VALUES (84, 'user_27_s8455', 1255.94, 'success', '2024-06-15');
+    INSERT INTO transactions (id, session_id, amount, status, timestamp)
+    VALUES (85, 'user_27_s2686', 4612.13, 'failed', '2024-06-02');
+    INSERT INTO transactions (id, session_id, amount, status, timestamp)
+    VALUES (86, 'user_27_s8806', 3078.68, 'success', '2024-06-27');
+    INSERT INTO transactions (id, session_id, amount, status, timestamp)
+    VALUES (87, 'user_27_s2409', 4033.98, 'success', '2024-06-26');
+    INSERT INTO transactions (id, session_id, amount, status, timestamp)
+    VALUES (88, 'user_28_s9096', 2131.07, 'failed', '2024-06-09');
+    INSERT INTO transactions (id, session_id, amount, status, timestamp)
+    VALUES (89, 'user_29_s8343', 1800.07, 'failed', '2024-06-07');
+    INSERT INTO transactions (id, session_id, amount, status, timestamp)
+    VALUES (90, 'user_29_s6596', 260.95, 'abandoned', '2024-06-10');
+    INSERT INTO transactions (id, session_id, amount, status, timestamp)
+    VALUES (91, 'user_29_s3806', 2542.0, 'success', '2024-06-26');
+    INSERT INTO transactions (id, session_id, amount, status, timestamp)
+    VALUES (92, 'user_30_s2841', 3924.43, 'success', '2024-06-25');
+    INSERT INTO transactions (id, session_id, amount, status, timestamp)
+    VALUES (93, 'user_30_s9716', 3351.33, 'success', '2024-06-28');
+    INSERT INTO transactions (id, session_id, amount, status, timestamp)
+    VALUES (94, 'user_30_s6625', 2830.8, 'failed', '2024-06-07');
+    INSERT INTO transactions (id, session_id, amount, status, timestamp)
+    VALUES (95, 'user_31_s5780', 3017.39, 'success', '2024-06-20');
+    INSERT INTO transactions (id, session_id, amount, status, timestamp)
+    VALUES (96, 'user_32_s7655', 4018.93, 'success', '2024-06-14');
+    INSERT INTO transactions (id, session_id, amount, status, timestamp)
+    VALUES (97, 'user_33_s7002', 279.09, 'success', '2024-06-23');
+    INSERT INTO transactions (id, session_id, amount, status, timestamp)
+    VALUES (98, 'user_33_s6919', 1540.82, 'failed', '2024-06-23');
+    INSERT INTO transactions (id, session_id, amount, status, timestamp)
+    VALUES (99, 'user_33_s1853', 2259.74, 'success', '2024-06-19');
+    INSERT INTO transactions (id, session_id, amount, status, timestamp)
+    VALUES (100, 'user_33_s4769', 604.61, 'success', '2024-06-30');
+    INSERT INTO transactions (id, session_id, amount, status, timestamp)
+    VALUES (101, 'user_33_s4769', 4735.97, 'success', '2024-06-30');
+    INSERT INTO transactions (id, session_id, amount, status, timestamp)
+    VALUES (102, 'user_34_s7293', 2680.23, 'failed', '2024-06-26');
+    INSERT INTO transactions (id, session_id, amount, status, timestamp)
+    VALUES (103, 'user_34_s7293', 865.15, 'failed', '2024-06-26');
+    INSERT INTO transactions (id, session_id, amount, status, timestamp)
+    VALUES (104, 'user_35_s8509', 2803.44, 'success', '2024-06-17');
+    INSERT INTO transactions (id, session_id, amount, status, timestamp)
+    VALUES (105, 'user_35_s5777', 196.58, 'success', '2024-06-06');
+    INSERT INTO transactions (id, session_id, amount, status, timestamp)
+    VALUES (106, 'user_36_s3491', 4448.56, 'success', '2024-06-05');
+    INSERT INTO transactions (id, session_id, amount, status, timestamp)
+    VALUES (107, 'user_36_s4124', 1291.54, 'failed', '2024-06-28');
+    INSERT INTO transactions (id, session_id, amount, status, timestamp)
+    VALUES (108, 'user_36_s4051', 4816.98, 'abandoned', '2024-06-12');
+    INSERT INTO transactions (id, session_id, amount, status, timestamp)
+    VALUES (109, 'user_36_s4051', 1104.42, 'success', '2024-06-12');
+    INSERT INTO transactions (id, session_id, amount, status, timestamp)
+    VALUES (110, 'user_37_s6222', 3202.88, 'failed', '2024-06-04');
+    INSERT INTO transactions (id, session_id, amount, status, timestamp)
+    VALUES (111, 'user_38_s1876', 989.03, 'success', '2024-06-20');
+    INSERT INTO transactions (id, session_id, amount, status, timestamp)
+    VALUES (112, 'user_38_s5142', 4105.47, 'success', '2024-06-03');
+    INSERT INTO transactions (id, session_id, amount, status, timestamp)
+    VALUES (113, 'user_38_s5142', 4143.03, 'success', '2024-06-03');
+    INSERT INTO transactions (id, session_id, amount, status, timestamp)
+    VALUES (114, 'user_39_s8079', 3158.33, 'success', '2024-06-20');
+    INSERT INTO transactions (id, session_id, amount, status, timestamp)
+    VALUES (115, 'user_39_s7799', 4319.23, 'success', '2024-06-13');
+    INSERT INTO transactions (id, session_id, amount, status, timestamp)
+    VALUES (116, 'user_39_s5465', 786.55, 'failed', '2024-06-28');
+    INSERT INTO transactions (id, session_id, amount, status, timestamp)
+    VALUES (117, 'user_39_s5465', 4928.3, 'success', '2024-06-28');
+    INSERT INTO transactions (id, session_id, amount, status, timestamp)
+    VALUES (118, 'user_40_s2693', 210.1, 'success', '2024-06-19');
+    INSERT INTO transactions (id, session_id, amount, status, timestamp)
+    VALUES (119, 'user_40_s5752', 2072.5, 'success', '2024-06-24');
+    INSERT INTO transactions (id, session_id, amount, status, timestamp)
+    VALUES (120, 'user_41_s6177', 4923.57, 'success', '2024-06-23');
+    INSERT INTO transactions (id, session_id, amount, status, timestamp)
+    VALUES (121, 'user_41_s6177', 3486.99, 'failed', '2024-06-23');
+    INSERT INTO transactions (id, session_id, amount, status, timestamp)
+    VALUES (122, 'user_41_s9932', 676.98, 'success', '2024-06-26');
+    INSERT INTO transactions (id, session_id, amount, status, timestamp)
+    VALUES (123, 'user_41_s9932', 429.16, 'success', '2024-06-26');
+    INSERT INTO transactions (id, session_id, amount, status, timestamp)
+    VALUES (124, 'user_41_s9308', 1111.46, 'success', '2024-06-30');
+    INSERT INTO transactions (id, session_id, amount, status, timestamp)
+    VALUES (125, 'user_41_s9308', 1392.05, 'success', '2024-06-30');
+    INSERT INTO transactions (id, session_id, amount, status, timestamp)
+    VALUES (126, 'user_42_s2150', 3042.53, 'failed', '2024-06-09');
+    INSERT INTO transactions (id, session_id, amount, status, timestamp)
+    VALUES (127, 'user_42_s2931', 4206.72, 'success', '2024-06-21');
+    INSERT INTO transactions (id, session_id, amount, status, timestamp)
+    VALUES (128, 'user_42_s2664', 1833.97, 'abandoned', '2024-06-26');
+    INSERT INTO transactions (id, session_id, amount, status, timestamp)
+    VALUES (129, 'user_43_s1512', 3055.45, 'success', '2024-06-15');
+    INSERT INTO transactions (id, session_id, amount, status, timestamp)
+    VALUES (130, 'user_43_s8805', 2242.25, 'abandoned', '2024-06-22');
+    INSERT INTO transactions (id, session_id, amount, status, timestamp)
+    VALUES (131, 'user_43_s8805', 1555.9, 'success', '2024-06-22');
+    INSERT INTO transactions (id, session_id, amount, status, timestamp)
+    VALUES (132, 'user_44_s4672', 4775.03, 'success', '2024-06-08');
+    INSERT INTO transactions (id, session_id, amount, status, timestamp)
+    VALUES (133, 'user_44_s8404', 252.8, 'success', '2024-06-21');
+    INSERT INTO transactions (id, session_id, amount, status, timestamp)
+    VALUES (134, 'user_44_s4343', 4247.4, 'abandoned', '2024-06-29');
+    INSERT INTO transactions (id, session_id, amount, status, timestamp)
+    VALUES (135, 'user_44_s4343', 1737.8, 'failed', '2024-06-29');
+    INSERT INTO transactions (id, session_id, amount, status, timestamp)
+    VALUES (136, 'user_44_s5070', 1822.55, 'success', '2024-06-05');
+    INSERT INTO transactions (id, session_id, amount, status, timestamp)
+    VALUES (137, 'user_45_s8004', 2352.44, 'success', '2024-06-23');
+    INSERT INTO transactions (id, session_id, amount, status, timestamp)
+    VALUES (138, 'user_45_s9130', 3504.01, 'success', '2024-06-12');
+    INSERT INTO transactions (id, session_id, amount, status, timestamp)
+    VALUES (139, 'user_45_s9130', 605.16, 'success', '2024-06-12');
+    INSERT INTO transactions (id, session_id, amount, status, timestamp)
+    VALUES (140, 'user_46_s2679', 770.41, 'abandoned', '2024-06-19');
+    INSERT INTO transactions (id, session_id, amount, status, timestamp)
+    VALUES (141, 'user_46_s2679', 2654.37, 'success', '2024-06-19');
+    INSERT INTO transactions (id, session_id, amount, status, timestamp)
+    VALUES (142, 'user_46_s8253', 3687.9, 'failed', '2024-06-25');
+    INSERT INTO transactions (id, session_id, amount, status, timestamp)
+    VALUES (143, 'user_46_s8253', 3648.11, 'failed', '2024-06-25');
+    INSERT INTO transactions (id, session_id, amount, status, timestamp)
+    VALUES (144, 'user_47_s6188', 2498.18, 'success', '2024-06-15');
+    INSERT INTO transactions (id, session_id, amount, status, timestamp)
+    VALUES (145, 'user_48_s3141', 3382.6, 'success', '2024-06-14');
+    INSERT INTO transactions (id, session_id, amount, status, timestamp)
+    VALUES (146, 'user_49_s7617', 984.82, 'success', '2024-06-16');
+    INSERT INTO transactions (id, session_id, amount, status, timestamp)
+    VALUES (147, 'user_49_s7617', 1632.99, 'success', '2024-06-16');
+    INSERT INTO transactions (id, session_id, amount, status, timestamp)
+    VALUES (148, 'user_49_s7484', 4629.54, 'abandoned', '2024-06-07');
+    INSERT INTO transactions (id, session_id, amount, status, timestamp)
+    VALUES (149, 'user_50_s8421', 3750.82, 'success', '2024-06-30');
+    INSERT INTO transactions (id, session_id, amount, status, timestamp)
+    VALUES (150, 'user_50_s8421', 1663.59, 'failed', '2024-06-30');
+    INSERT INTO transactions (id, session_id, amount, status, timestamp)
+    VALUES (151, 'user_50_s5452', 1887.02, 'success', '2024-06-23');
+    INSERT INTO transactions (id, session_id, amount, status, timestamp)
+    VALUES (152, 'user_50_s6881', 3511.82, 'success', '2024-06-10');
+    INSERT INTO transactions (id, session_id, amount, status, timestamp)
+    VALUES (153, 'user_50_s3849', 2904.9, 'failed', '2024-06-20');
+    INSERT INTO transactions (id, session_id, amount, status, timestamp)
+    VALUES (154, 'user_51_s7905', 1661.89, 'failed', '2024-06-19');
+    INSERT INTO transactions (id, session_id, amount, status, timestamp)
+    VALUES (155, 'user_51_s7905', 2191.4, 'failed', '2024-06-19');
+    INSERT INTO transactions (id, session_id, amount, status, timestamp)
+    VALUES (156, 'user_51_s3489', 4363.48, 'success', '2024-06-01');
+    INSERT INTO transactions (id, session_id, amount, status, timestamp)
+    VALUES (157, 'user_51_s5611', 1981.42, 'abandoned', '2024-06-16');
+    INSERT INTO transactions (id, session_id, amount, status, timestamp)
+    VALUES (158, 'user_52_s9527', 1818.49, 'failed', '2024-06-23');
+    INSERT INTO transactions (id, session_id, amount, status, timestamp)
+    VALUES (159, 'user_52_s9527', 284.22, 'success', '2024-06-23');
+    INSERT INTO transactions (id, session_id, amount, status, timestamp)
+    VALUES (160, 'user_52_s7303', 4922.01, 'failed', '2024-06-27');
+    INSERT INTO transactions (id, session_id, amount, status, timestamp)
+    VALUES (161, 'user_52_s7303', 1748.22, 'success', '2024-06-27');
+    INSERT INTO transactions (id, session_id, amount, status, timestamp)
+    VALUES (162, 'user_52_s1851', 641.32, 'success', '2024-06-24');
+    INSERT INTO transactions (id, session_id, amount, status, timestamp)
+    VALUES (163, 'user_52_s7833', 3606.21, 'success', '2024-06-03');
+    INSERT INTO transactions (id, session_id, amount, status, timestamp)
+    VALUES (164, 'user_52_s7833', 187.58, 'abandoned', '2024-06-03');
+    INSERT INTO transactions (id, session_id, amount, status, timestamp)
+    VALUES (165, 'user_53_s5000', 2018.99, 'success', '2024-06-29');
+    INSERT INTO transactions (id, session_id, amount, status, timestamp)
+    VALUES (166, 'user_53_s3738', 3953.09, 'success', '2024-06-11');
+    INSERT INTO transactions (id, session_id, amount, status, timestamp)
+    VALUES (167, 'user_53_s3738', 4913.42, 'failed', '2024-06-11');
+    INSERT INTO transactions (id, session_id, amount, status, timestamp)
+    VALUES (168, 'user_53_s6732', 3105.72, 'success', '2024-06-12');
+    INSERT INTO transactions (id, session_id, amount, status, timestamp)
+    VALUES (169, 'user_53_s9002', 2067.74, 'failed', '2024-06-01');
+    INSERT INTO transactions (id, session_id, amount, status, timestamp)
+    VALUES (170, 'user_54_s4913', 2612.17, 'success', '2024-06-11');
+    INSERT INTO transactions (id, session_id, amount, status, timestamp)
+    VALUES (171, 'user_55_s5380', 279.99, 'abandoned', '2024-06-13');
+    INSERT INTO transactions (id, session_id, amount, status, timestamp)
+    VALUES (172, 'user_55_s5107', 383.43, 'abandoned', '2024-06-14');
+    INSERT INTO transactions (id, session_id, amount, status, timestamp)
+    VALUES (173, 'user_55_s9945', 3026.64, 'success', '2024-06-03');
+    INSERT INTO transactions (id, session_id, amount, status, timestamp)
+    VALUES (174, 'user_55_s9967', 3815.37, 'failed', '2024-06-29');
+    INSERT INTO transactions (id, session_id, amount, status, timestamp)
+    VALUES (175, 'user_56_s1417', 2370.57, 'failed', '2024-06-19');
+    INSERT INTO transactions (id, session_id, amount, status, timestamp)
+    VALUES (176, 'user_56_s1417', 270.84, 'failed', '2024-06-19');
+    INSERT INTO transactions (id, session_id, amount, status, timestamp)
+    VALUES (177, 'user_56_s9808', 4399.56, 'success', '2024-06-07');
+    INSERT INTO transactions (id, session_id, amount, status, timestamp)
+    VALUES (178, 'user_57_s1825', 317.45, 'failed', '2024-06-21');
+    INSERT INTO transactions (id, session_id, amount, status, timestamp)
+    VALUES (179, 'user_57_s6745', 3310.69, 'success', '2024-06-13');
+    INSERT INTO transactions (id, session_id, amount, status, timestamp)
+    VALUES (180, 'user_57_s6745', 1478.82, 'success', '2024-06-13');
+    INSERT INTO transactions (id, session_id, amount, status, timestamp)
+    VALUES (181, 'user_57_s1412', 3644.76, 'success', '2024-06-24');
+    INSERT INTO transactions (id, session_id, amount, status, timestamp)
+    VALUES (182, 'user_57_s8587', 636.4, 'failed', '2024-06-25');
+    INSERT INTO transactions (id, session_id, amount, status, timestamp)
+    VALUES (183, 'user_57_s8587', 4270.91, 'success', '2024-06-25');
+    INSERT INTO transactions (id, session_id, amount, status, timestamp)
+    VALUES (184, 'user_58_s8164', 4541.92, 'success', '2024-06-25');
+    INSERT INTO transactions (id, session_id, amount, status, timestamp)
+    VALUES (185, 'user_59_s6988', 2872.09, 'success', '2024-06-09');
+    INSERT INTO transactions (id, session_id, amount, status, timestamp)
+    VALUES (186, 'user_59_s3967', 4353.99, 'success', '2024-06-03');
+    INSERT INTO transactions (id, session_id, amount, status, timestamp)
+    VALUES (187, 'user_59_s2122', 3570.98, 'failed', '2024-06-16');
+    INSERT INTO transactions (id, session_id, amount, status, timestamp)
+    VALUES (188, 'user_59_s2122', 4657.44, 'success', '2024-06-16');
+    INSERT INTO transactions (id, session_id, amount, status, timestamp)
+    VALUES (189, 'user_59_s2571', 877.17, 'failed', '2024-06-18');
+    INSERT INTO transactions (id, session_id, amount, status, timestamp)
+    VALUES (190, 'user_59_s2571', 2380.8, 'failed', '2024-06-18');
+    INSERT INTO transactions (id, session_id, amount, status, timestamp)
+    VALUES (191, 'user_60_s3143', 1742.08, 'failed', '2024-06-24');
+    INSERT INTO transactions (id, session_id, amount, status, timestamp)
+    VALUES (192, 'user_61_s8357', 2825.29, 'failed', '2024-06-05');
+    INSERT INTO transactions (id, session_id, amount, status, timestamp)
+    VALUES (193, 'user_61_s4440', 1506.49, 'failed', '2024-06-23');
+    INSERT INTO transactions (id, session_id, amount, status, timestamp)
+    VALUES (194, 'user_61_s6644', 667.63, 'success', '2024-06-23');
+    INSERT INTO transactions (id, session_id, amount, status, timestamp)
+    VALUES (195, 'user_62_s3914', 729.4, 'success', '2024-06-09');
+    INSERT INTO transactions (id, session_id, amount, status, timestamp)
+    VALUES (196, 'user_62_s3914', 2752.21, 'abandoned', '2024-06-09');
+    INSERT INTO transactions (id, session_id, amount, status, timestamp)
+    VALUES (197, 'user_63_s9787', 4666.94, 'success', '2024-06-16');
+    INSERT INTO transactions (id, session_id, amount, status, timestamp)
+    VALUES (198, 'user_63_s1728', 3877.19, 'abandoned', '2024-06-22');
+    INSERT INTO transactions (id, session_id, amount, status, timestamp)
+    VALUES (199, 'user_64_s1698', 3572.0, 'success', '2024-06-19');
+    INSERT INTO transactions (id, session_id, amount, status, timestamp)
+    VALUES (200, 'user_64_s1698', 3142.49, 'success', '2024-06-19');
+    INSERT INTO transactions (id, session_id, amount, status, timestamp)
+    VALUES (201, 'user_65_s1395', 3412.66, 'success', '2024-06-29');
+    INSERT INTO transactions (id, session_id, amount, status, timestamp)
+    VALUES (202, 'user_65_s1395', 737.42, 'failed', '2024-06-29');
+    INSERT INTO transactions (id, session_id, amount, status, timestamp)
+    VALUES (203, 'user_66_s9082', 4125.41, 'success', '2024-06-12');
+    INSERT INTO transactions (id, session_id, amount, status, timestamp)
+    VALUES (204, 'user_67_s3502', 3448.15, 'success', '2024-06-28');
+    INSERT INTO transactions (id, session_id, amount, status, timestamp)
+    VALUES (205, 'user_67_s3502', 2395.84, 'abandoned', '2024-06-28');
+    INSERT INTO transactions (id, session_id, amount, status, timestamp)
+    VALUES (206, 'user_68_s3782', 901.76, 'failed', '2024-06-20');
+    INSERT INTO transactions (id, session_id, amount, status, timestamp)
+    VALUES (207, 'user_68_s5946', 4215.74, 'failed', '2024-06-26');
+    INSERT INTO transactions (id, session_id, amount, status, timestamp)
+    VALUES (208, 'user_69_s9335', 1438.97, 'abandoned', '2024-06-21');
+    INSERT INTO transactions (id, session_id, amount, status, timestamp)
+    VALUES (209, 'user_69_s8266', 3683.22, 'abandoned', '2024-06-12');
+    INSERT INTO transactions (id, session_id, amount, status, timestamp)
+    VALUES (210, 'user_69_s8192', 2048.21, 'success', '2024-06-20');
+    INSERT INTO transactions (id, session_id, amount, status, timestamp)
+    VALUES (211, 'user_70_s6588', 1671.64, 'failed', '2024-06-04');
+    INSERT INTO transactions (id, session_id, amount, status, timestamp)
+    VALUES (212, 'user_70_s4636', 252.56, 'failed', '2024-06-23');
+    INSERT INTO transactions (id, session_id, amount, status, timestamp)
+    VALUES (213, 'user_70_s2167', 2410.51, 'success', '2024-06-25');
+    INSERT INTO transactions (id, session_id, amount, status, timestamp)
+    VALUES (214, 'user_71_s3156', 546.71, 'success', '2024-06-21');
+    INSERT INTO transactions (id, session_id, amount, status, timestamp)
+    VALUES (215, 'user_71_s6161', 3829.02, 'failed', '2024-06-26');
+    INSERT INTO transactions (id, session_id, amount, status, timestamp)
+    VALUES (216, 'user_71_s6161', 259.38, 'abandoned', '2024-06-26');
+    INSERT INTO transactions (id, session_id, amount, status, timestamp)
+    VALUES (217, 'user_71_s7541', 2364.28, 'success', '2024-06-26');
+    INSERT INTO transactions (id, session_id, amount, status, timestamp)
+    VALUES (218, 'user_72_s8330', 3459.27, 'success', '2024-06-23');
+    INSERT INTO transactions (id, session_id, amount, status, timestamp)
+    VALUES (219, 'user_73_s5330', 888.04, 'failed', '2024-06-11');
+    INSERT INTO transactions (id, session_id, amount, status, timestamp)
+    VALUES (220, 'user_74_s5846', 4008.04, 'success', '2024-06-12');
+    INSERT INTO transactions (id, session_id, amount, status, timestamp)
+    VALUES (221, 'user_74_s8241', 2376.53, 'failed', '2024-06-26');
+    INSERT INTO transactions (id, session_id, amount, status, timestamp)
+    VALUES (222, 'user_75_s8056', 3040.1, 'success', '2024-06-29');
+    INSERT INTO transactions (id, session_id, amount, status, timestamp)
+    VALUES (223, 'user_75_s2542', 4767.98, 'abandoned', '2024-06-14');
+    INSERT INTO transactions (id, session_id, amount, status, timestamp)
+    VALUES (224, 'user_75_s2542', 2454.48, 'success', '2024-06-14');
+    INSERT INTO transactions (id, session_id, amount, status, timestamp)
+    VALUES (225, 'user_75_s2191', 2897.43, 'success', '2024-06-10');
+    INSERT INTO transactions (id, session_id, amount, status, timestamp)
+    VALUES (226, 'user_75_s7938', 3542.08, 'success', '2024-06-26');
+    INSERT INTO transactions (id, session_id, amount, status, timestamp)
+    VALUES (227, 'user_76_s2540', 454.84, 'success', '2024-06-29');
+    INSERT INTO transactions (id, session_id, amount, status, timestamp)
+    VALUES (228, 'user_76_s2540', 1818.07, 'success', '2024-06-29');
+    INSERT INTO transactions (id, session_id, amount, status, timestamp)
+    VALUES (229, 'user_76_s6541', 1678.26, 'abandoned', '2024-06-19');
+    INSERT INTO transactions (id, session_id, amount, status, timestamp)
+    VALUES (230, 'user_77_s2365', 4022.87, 'success', '2024-06-20');
+    INSERT INTO transactions (id, session_id, amount, status, timestamp)
+    VALUES (231, 'user_77_s9702', 4762.59, 'success', '2024-06-07');
+    INSERT INTO transactions (id, session_id, amount, status, timestamp)
+    VALUES (232, 'user_77_s5312', 4687.44, 'success', '2024-06-13');
+    INSERT INTO transactions (id, session_id, amount, status, timestamp)
+    VALUES (233, 'user_77_s4141', 4682.49, 'abandoned', '2024-06-28');
+    INSERT INTO transactions (id, session_id, amount, status, timestamp)
+    VALUES (234, 'user_78_s2810', 1763.31, 'failed', '2024-06-29');
+    INSERT INTO transactions (id, session_id, amount, status, timestamp)
+    VALUES (235, 'user_78_s2810', 3338.02, 'success', '2024-06-29');
+    INSERT INTO transactions (id, session_id, amount, status, timestamp)
+    VALUES (236, 'user_78_s3923', 2316.36, 'failed', '2024-06-22');
+    INSERT INTO transactions (id, session_id, amount, status, timestamp)
+    VALUES (237, 'user_78_s3923', 903.6, 'success', '2024-06-22');
+    INSERT INTO transactions (id, session_id, amount, status, timestamp)
+    VALUES (238, 'user_78_s5186', 1310.81, 'success', '2024-06-10');
+    INSERT INTO transactions (id, session_id, amount, status, timestamp)
+    VALUES (239, 'user_79_s5268', 1712.19, 'success', '2024-06-13');
+    INSERT INTO transactions (id, session_id, amount, status, timestamp)
+    VALUES (240, 'user_79_s5849', 3969.52, 'failed', '2024-06-28');
+    INSERT INTO transactions (id, session_id, amount, status, timestamp)
+    VALUES (241, 'user_80_s7619', 202.22, 'failed', '2024-06-08');
+    INSERT INTO transactions (id, session_id, amount, status, timestamp)
+    VALUES (242, 'user_80_s4072', 4876.49, 'failed', '2024-06-03');
+    INSERT INTO transactions (id, session_id, amount, status, timestamp)
+    VALUES (243, 'user_80_s4072', 2075.98, 'success', '2024-06-03');
+    INSERT INTO transactions (id, session_id, amount, status, timestamp)
+    VALUES (244, 'user_81_s1504', 1362.65, 'success', '2024-06-28');
+    INSERT INTO transactions (id, session_id, amount, status, timestamp)
+    VALUES (245, 'user_82_s8576', 2137.95, 'failed', '2024-06-24');
+    INSERT INTO transactions (id, session_id, amount, status, timestamp)
+    VALUES (246, 'user_82_s8576', 1795.08, 'success', '2024-06-24');
+    INSERT INTO transactions (id, session_id, amount, status, timestamp)
+    VALUES (247, 'user_83_s6029', 2762.17, 'success', '2024-06-21');
+    INSERT INTO transactions (id, session_id, amount, status, timestamp)
+    VALUES (248, 'user_84_s3105', 3653.76, 'success', '2024-06-12');
+    INSERT INTO transactions (id, session_id, amount, status, timestamp)
+    VALUES (249, 'user_84_s7316', 3985.48, 'failed', '2024-06-29');
+    INSERT INTO transactions (id, session_id, amount, status, timestamp)
+    VALUES (250, 'user_85_s5175', 4570.58, 'success', '2024-06-22');
+    INSERT INTO transactions (id, session_id, amount, status, timestamp)
+    VALUES (251, 'user_85_s6348', 4196.39, 'success', '2024-06-04');
+    INSERT INTO transactions (id, session_id, amount, status, timestamp)
+    VALUES (252, 'user_85_s7190', 4554.26, 'success', '2024-06-09');
+    INSERT INTO transactions (id, session_id, amount, status, timestamp)
+    VALUES (253, 'user_85_s7190', 1926.96, 'success', '2024-06-09');
+    INSERT INTO transactions (id, session_id, amount, status, timestamp)
+    VALUES (254, 'user_86_s6645', 2512.16, 'success', '2024-06-15');
+    INSERT INTO transactions (id, session_id, amount, status, timestamp)
+    VALUES (255, 'user_86_s6645', 3005.3, 'success', '2024-06-15');
+    INSERT INTO transactions (id, session_id, amount, status, timestamp)
+    VALUES (256, 'user_87_s4584', 901.27, 'success', '2024-06-21');
+    INSERT INTO transactions (id, session_id, amount, status, timestamp)
+    VALUES (257, 'user_87_s9053', 4304.13, 'success', '2024-06-03');
+    INSERT INTO transactions (id, session_id, amount, status, timestamp)
+    VALUES (258, 'user_87_s3703', 741.28, 'abandoned', '2024-06-23');
+    INSERT INTO transactions (id, session_id, amount, status, timestamp)
+    VALUES (259, 'user_87_s3703', 1249.9, 'failed', '2024-06-23');
+    INSERT INTO transactions (id, session_id, amount, status, timestamp)
+    VALUES (260, 'user_88_s8114', 2646.89, 'success', '2024-06-12');
+    INSERT INTO transactions (id, session_id, amount, status, timestamp)
+    VALUES (261, 'user_89_s6063', 2302.23, 'success', '2024-06-06');
+    INSERT INTO transactions (id, session_id, amount, status, timestamp)
+    VALUES (262, 'user_89_s8575', 918.51, 'success', '2024-06-28');
+    INSERT INTO transactions (id, session_id, amount, status, timestamp)
+    VALUES (263, 'user_89_s8575', 3067.14, 'success', '2024-06-28');
+    INSERT INTO transactions (id, session_id, amount, status, timestamp)
+    VALUES (264, 'user_90_s7819', 4236.44, 'failed', '2024-06-26');
+    INSERT INTO transactions (id, session_id, amount, status, timestamp)
+    VALUES (265, 'user_91_s3745', 2834.89, 'success', '2024-06-28');
+    INSERT INTO transactions (id, session_id, amount, status, timestamp)
+    VALUES (266, 'user_91_s3745', 1421.77, 'success', '2024-06-28');
+    INSERT INTO transactions (id, session_id, amount, status, timestamp)
+    VALUES (267, 'user_91_s1539', 292.78, 'success', '2024-06-28');
+    INSERT INTO transactions (id, session_id, amount, status, timestamp)
+    VALUES (268, 'user_91_s1539', 982.05, 'success', '2024-06-28');
+    INSERT INTO transactions (id, session_id, amount, status, timestamp)
+    VALUES (269, 'user_91_s5964', 303.71, 'success', '2024-06-09');
+    INSERT INTO transactions (id, session_id, amount, status, timestamp)
+    VALUES (270, 'user_91_s5835', 3461.24, 'success', '2024-06-27');
+    INSERT INTO transactions (id, session_id, amount, status, timestamp)
+    VALUES (271, 'user_92_s8102', 4352.8, 'success', '2024-06-17');
+    INSERT INTO transactions (id, session_id, amount, status, timestamp)
+    VALUES (272, 'user_92_s6320', 1779.0, 'success', '2024-06-01');
+    INSERT INTO transactions (id, session_id, amount, status, timestamp)
+    VALUES (273, 'user_93_s8891', 1608.86, 'failed', '2024-06-13');
+    INSERT INTO transactions (id, session_id, amount, status, timestamp)
+    VALUES (274, 'user_94_s1924', 895.67, 'success', '2024-06-13');
+    INSERT INTO transactions (id, session_id, amount, status, timestamp)
+    VALUES (275, 'user_94_s1924', 3395.75, 'success', '2024-06-13');
+    INSERT INTO transactions (id, session_id, amount, status, timestamp)
+    VALUES (276, 'user_94_s2581', 1351.0, 'failed', '2024-06-03');
+    INSERT INTO transactions (id, session_id, amount, status, timestamp)
+    VALUES (277, 'user_94_s2581', 4728.61, 'failed', '2024-06-03');
+    INSERT INTO transactions (id, session_id, amount, status, timestamp)
+    VALUES (278, 'user_94_s4324', 4171.3, 'failed', '2024-06-06');
+    INSERT INTO transactions (id, session_id, amount, status, timestamp)
+    VALUES (279, 'user_94_s6713', 4661.65, 'failed', '2024-06-19');
+    INSERT INTO transactions (id, session_id, amount, status, timestamp)
+    VALUES (280, 'user_95_s5804', 4710.29, 'failed', '2024-06-15');
+    INSERT INTO transactions (id, session_id, amount, status, timestamp)
+    VALUES (281, 'user_95_s1009', 622.31, 'failed', '2024-06-24');
+    INSERT INTO transactions (id, session_id, amount, status, timestamp)
+    VALUES (282, 'user_95_s9989', 1658.75, 'failed', '2024-06-18');
+    INSERT INTO transactions (id, session_id, amount, status, timestamp)
+    VALUES (283, 'user_95_s8418', 3933.69, 'success', '2024-06-13');
+    INSERT INTO transactions (id, session_id, amount, status, timestamp)
+    VALUES (284, 'user_95_s8418', 634.64, 'failed', '2024-06-13');
+    INSERT INTO transactions (id, session_id, amount, status, timestamp)
+    VALUES (285, 'user_96_s2015', 3371.21, 'failed', '2024-06-01');
+    INSERT INTO transactions (id, session_id, amount, status, timestamp)
+    VALUES (286, 'user_97_s3193', 1654.26, 'failed', '2024-06-15');
+    INSERT INTO transactions (id, session_id, amount, status, timestamp)
+    VALUES (287, 'user_97_s3193', 689.02, 'success', '2024-06-15');
+    INSERT INTO transactions (id, session_id, amount, status, timestamp)
+    VALUES (288, 'user_97_s8449', 3188.02, 'failed', '2024-06-25');
+    INSERT INTO transactions (id, session_id, amount, status, timestamp)
+    VALUES (289, 'user_98_s7970', 2003.93, 'success', '2024-06-27');
+    INSERT INTO transactions (id, session_id, amount, status, timestamp)
+    VALUES (290, 'user_98_s5784', 2277.66, 'success', '2024-06-13');
+    INSERT INTO transactions (id, session_id, amount, status, timestamp)
+    VALUES (291, 'user_99_s2633', 3374.24, 'failed', '2024-06-09');
+    INSERT INTO transactions (id, session_id, amount, status, timestamp)
+    VALUES (292, 'user_100_s9702', 2757.58, 'abandoned', '2024-06-01');
+    INSERT INTO transactions (id, session_id, amount, status, timestamp)
+    VALUES (293, 'user_100_s1404', 225.65, 'success', '2024-06-16');
+    INSERT INTO transactions (id, session_id, amount, status, timestamp)
+    VALUES (294, 'user_100_s3000', 2680.46, 'success', '2024-06-05');
+    
+
+---
+
+**Query #1**
+
+    -- Total Visitors (unique users who had a session)
+    SELECT COUNT(DISTINCT user_id) AS total_visitors 
+    FROM sessions;
+
+| total_visitors |
+| -------------- |
+| 100            |
+
+---
+**Query #2**
+
+    
+    
+    -- Sessions with Transactions
+    SELECT COUNT(DISTINCT session_id) AS sessions_with_transactions 
+    FROM transactions;
+
+| sessions_with_transactions |
+| -------------------------- |
+| 233                        |
+
+---
+**Query #3**
+
+    
+    
+    -- Sessions with Successful Payments
+    SELECT COUNT(DISTINCT session_id) AS successful_sessions 
+    FROM transactions 
+    WHERE status = 'success';
+
+| successful_sessions |
+| ------------------- |
+| 161                 |
+
+---
+**Query #4**
+
+    
+    
+    -- Sessions with Failed Payments
+    SELECT COUNT(DISTINCT session_id) AS failed_sessions 
+    FROM transactions 
+    WHERE status = 'failed';
+
+| failed_sessions |
+| --------------- |
+| 79              |
+
+---
+**Query #5**
+
+    
+    
+    -- Conversion Rate (% of transactions that succeeded)
+    SELECT 
+      ROUND(
+        (SELECT COUNT(DISTINCT session_id) FROM transactions WHERE status = 'success') * 100.0 /
+        (SELECT COUNT(DISTINCT session_id) FROM transactions),
+        2
+      ) AS conversion_rate_percent;
+
+| conversion_rate_percent |
+| ----------------------- |
+| 69.10                   |
+
+---
+**Query #6**
+
+    
+    
+    -- Failure Rate by Location
+    SELECT 
+      u.location,
+      COUNT(CASE WHEN t.status = 'failed' THEN 1 END) * 100.0 / COUNT(*) AS failure_rate_percent
+    FROM transactions t
+    JOIN sessions s ON t.session_id = s.session_id
+    JOIN users u ON s.user_id = u.user_id
+    GROUP BY u.location;
+
+| location  | failure_rate_percent |
+| --------- | -------------------- |
+| Bangalore | 26.47059             |
+| Chennai   | 35.29412             |
+| Delhi     | 21.05263             |
+| Mumbai    | 31.81818             |
+| Pune      | 32.43243             |
+
+---
+**Query #7**
+
+    
+    
+    
+    -- Users With More Than 1 Failed Transaction
+    SELECT s.user_id, COUNT(*) AS failed_count
+    FROM transactions t
+    JOIN sessions s ON t.session_id = s.session_id
+    WHERE t.status = 'failed'
+    GROUP BY s.user_id
+    HAVING COUNT(*) > 1;
+
+| user_id | failed_count |
+| ------- | ------------ |
+| user_15 | 2            |
+| user_2  | 2            |
+| user_26 | 2            |
+| user_34 | 2            |
+| user_46 | 2            |
+| user_5  | 2            |
+| user_50 | 2            |
+| user_51 | 2            |
+| user_52 | 2            |
+| user_53 | 2            |
+| user_56 | 2            |
+| user_57 | 2            |
+| user_59 | 3            |
+| user_6  | 2            |
+| user_61 | 2            |
+| user_68 | 2            |
+| user_70 | 2            |
+| user_78 | 2            |
+| user_80 | 2            |
+| user_9  | 2            |
+| user_94 | 4            |
+| user_95 | 4            |
+| user_97 | 2            |
+
+---
+**Query #8**
+
+    
+    
+    -- High-Value Failures (> ₹4000)
+    SELECT *
+    FROM transactions 
+    WHERE status = 'failed' AND amount > 4000;
+
+| id  | session_id    | amount  | status | timestamp  |
+| --- | ------------- | ------- | ------ | ---------- |
+| 15  | user_4_s1659  | 4226.25 | failed | 2024-06-28 |
+| 40  | user_11_s2648 | 4933.92 | failed | 2024-06-08 |
+| 56  | user_16_s5555 | 4268.56 | failed | 2024-06-27 |
+| 58  | user_17_s7893 | 4639.60 | failed | 2024-06-30 |
+| 80  | user_26_s1569 | 4601.88 | failed | 2024-06-03 |
+| 85  | user_27_s2686 | 4612.13 | failed | 2024-06-02 |
+| 160 | user_52_s7303 | 4922.01 | failed | 2024-06-27 |
+| 167 | user_53_s3738 | 4913.42 | failed | 2024-06-11 |
+| 207 | user_68_s5946 | 4215.74 | failed | 2024-06-26 |
+| 242 | user_80_s4072 | 4876.49 | failed | 2024-06-03 |
+| 264 | user_90_s7819 | 4236.44 | failed | 2024-06-26 |
+| 277 | user_94_s2581 | 4728.61 | failed | 2024-06-03 |
+| 278 | user_94_s4324 | 4171.30 | failed | 2024-06-06 |
+| 279 | user_94_s6713 | 4661.65 | failed | 2024-06-19 |
+| 280 | user_95_s5804 | 4710.29 | failed | 2024-06-15 |
+
+---
+**Query #9**
+
+    
+    
+    
+    -- Total Success Amount by Location
+    SELECT 
+      u.location,
+      SUM(t.amount) AS total_success_amount
+    FROM transactions t
+    JOIN sessions s ON t.session_id = s.session_id
+    JOIN users u ON s.user_id = u.user_id
+    WHERE t.status = 'success'
+    GROUP BY u.location;
+
+| location  | total_success_amount |
+| --------- | -------------------- |
+| Bangalore | 110910.71            |
+| Chennai   | 84493.30             |
+| Delhi     | 103248.95            |
+| Mumbai    | 72539.54             |
+| Pune      | 119342.69            |
+
+---
+
+[View on DB Fiddle](https://www.db-fiddle.com/)

@@ -26,17 +26,17 @@ See: [`Queries.sql`](./Queries.sql)
 
 All visualizations created in [`analysis.R`](./analysis.R) using `ggplot2`.
 
-### 🔹 Funnel Bar Plot  
-![Funnel Plot](./output/funnel_plot.jpg)
+### Funnel Bar Plot  
+![Funnel Plot](./output/funnel_plot.png)
 
-### 🔹 Failure Rate by Location  
-![Failure Heatmap](./output/failure_heatmap.jpg)
+### Failure Rate by Location  
+![Failure Heatmap](./output/failure_heatmap.png)
 
-### 🔹 Success ₹ by Location  
-![Success by Location](./output/success_by_location.jpg)
+### Success ₹ by Location  
+![Success by Location](./output/success_by_location.png)
 
-### 🔹 Success Trend Over Time  
-![Success Trend](./output/success_trend.jpg)
+### Success Trend Over Time  
+![Success Trend](./output/success_trend.png)
 
 
 ## Key Learnings
@@ -67,8 +67,8 @@ All visualizations created in [`analysis.R`](./analysis.R) using `ggplot2`.
 ## About Me
 
 **Sai Bankar**  
-Final Year Mechatronics Engineering Student 
-Aspiring Product Software Engineer (PSE) @ Juspay  
+>Final Year Mechatronics Engineering Student 
+>Aspiring Product Software Engineer (PSE) @ Juspay  
 [GitHub Profile](https://github.com/saibankar444)
 
 ---
